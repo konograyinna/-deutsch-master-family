@@ -108,6 +108,148 @@
               "exampleUk": "МРТ працює без рентгенівського випромінювання."
             }
           ]
+        },
+        {
+          "title": "КТ — проведення обстеження",
+          "words": [
+            {
+              "de": "die Computertomografie",
+              "uk": "комп’ютерна томографія",
+              "example": "Die Computertomografie liefert Schichtbilder.",
+              "exampleUk": "Комп’ютерна томографія створює пошарові зображення."
+            },
+            {
+              "de": "die Aufnahme",
+              "uk": "знімок",
+              "example": "Die Aufnahme wird sofort kontrolliert.",
+              "exampleUk": "Знімок одразу перевіряють."
+            },
+            {
+              "de": "die Strahlenbelastung",
+              "uk": "променеве навантаження",
+              "example": "Wir halten die Strahlenbelastung so gering wie möglich.",
+              "exampleUk": "Ми тримаємо променеве навантаження якомога нижчим."
+            },
+            {
+              "de": "die Liege",
+              "uk": "стіл томографа",
+              "example": "Legen Sie sich bitte auf die Liege.",
+              "exampleUk": "Будь ласка, ляжте на стіл."
+            },
+            {
+              "de": "den Atem anhalten",
+              "uk": "затримати дихання",
+              "example": "Halten Sie bitte kurz den Atem an.",
+              "exampleUk": "Будь ласка, ненадовго затримайте дихання."
+            },
+            {
+              "de": "der Zugang",
+              "uk": "венозний доступ",
+              "example": "Wir legen einen venösen Zugang.",
+              "exampleUk": "Ми встановлюємо венозний доступ."
+            },
+            {
+              "de": "die Nierenwerte",
+              "uk": "показники функції нирок",
+              "example": "Vor der Kontrastmittelgabe prüfen wir die Nierenwerte.",
+              "exampleUk": "Перед введенням контрасту ми перевіряємо показники нирок."
+            },
+            {
+              "de": "die Allergie",
+              "uk": "алергія",
+              "example": "Haben Sie bekannte Allergien?",
+              "exampleUk": "Чи маєте ви відомі алергії?"
+            },
+            {
+              "de": "das Wärmegefühl",
+              "uk": "відчуття тепла",
+              "example": "Das Wärmegefühl nach der Injektion ist normal.",
+              "exampleUk": "Відчуття тепла після ін’єкції є нормальним."
+            },
+            {
+              "de": "die Nachbeobachtung",
+              "uk": "спостереження після процедури",
+              "example": "Nach der Untersuchung bleiben Sie kurz zur Nachbeobachtung.",
+              "exampleUk": "Після обстеження ви ненадовго залишаєтеся під наглядом."
+            }
+          ]
+        },
+        {
+          "title": "Рентген — позиціонування",
+          "words": [
+            {
+              "de": "die Lagerung",
+              "uk": "позиціонування пацієнта",
+              "example": "Die richtige Lagerung ist für die Aufnahme wichtig.",
+              "exampleUk": "Правильне позиціонування важливе для знімка."
+            },
+            {
+              "de": "aufrecht stehen",
+              "uk": "стояти прямо",
+              "example": "Bitte stehen Sie aufrecht vor dem Detektor.",
+              "exampleUk": "Будь ласка, станьте прямо перед детектором."
+            },
+            {
+              "de": "sich drehen",
+              "uk": "повернутися",
+              "example": "Drehen Sie sich bitte nach links.",
+              "exampleUk": "Будь ласка, поверніться ліворуч."
+            },
+            {
+              "de": "das Kinn anheben",
+              "uk": "підняти підборіддя",
+              "example": "Heben Sie bitte das Kinn etwas an.",
+              "exampleUk": "Будь ласка, трохи підніміть підборіддя."
+            },
+            {
+              "de": "die Schulter senken",
+              "uk": "опустити плече",
+              "example": "Senken Sie bitte die rechte Schulter.",
+              "exampleUk": "Будь ласка, опустіть праве плече."
+            },
+            {
+              "de": "der Detektor",
+              "uk": "детектор",
+              "example": "Der Detektor befindet sich hinter Ihnen.",
+              "exampleUk": "Детектор розташований позаду вас."
+            },
+            {
+              "de": "die Projektion",
+              "uk": "проєкція",
+              "example": "Wir machen eine seitliche Projektion.",
+              "exampleUk": "Ми робимо бічну проєкцію."
+            },
+            {
+              "de": "die Belichtung",
+              "uk": "експозиція",
+              "example": "Während der Belichtung dürfen Sie sich nicht bewegen.",
+              "exampleUk": "Під час експозиції не можна рухатися."
+            },
+            {
+              "de": "die Bildqualität",
+              "uk": "якість зображення",
+              "example": "Die Bildqualität ist ausreichend.",
+              "exampleUk": "Якість зображення достатня."
+            },
+            {
+              "de": "die Wiederholungsaufnahme",
+              "uk": "повторний знімок",
+              "example": "Eine Wiederholungsaufnahme ist nicht erforderlich.",
+              "exampleUk": "Повторний знімок не потрібен."
+            },
+            {
+              "de": "die Seitenmarkierung",
+              "uk": "позначка сторони",
+              "example": "Kontrollieren Sie die Seitenmarkierung.",
+              "exampleUk": "Перевірте позначку сторони."
+            },
+            {
+              "de": "der Strahlenschutz",
+              "uk": "радіаційний захист",
+              "example": "Der Strahlenschutz hat höchste Priorität.",
+              "exampleUk": "Радіаційний захист має найвищий пріоритет."
+            }
+          ]
         }
       ]
     },
@@ -148,6 +290,148 @@
               "uk": "підвищення кваліфікації",
               "example": "Ich möchte eine Weiterbildung machen.",
               "exampleUk": "Я хочу пройти підвищення кваліфікації."
+            }
+          ]
+        },
+        {
+          "title": "Аргументація B1–B2",
+          "words": [
+            {
+              "de": "einerseits ... andererseits",
+              "uk": "з одного боку... з іншого боку",
+              "example": "Einerseits ist die Arbeit interessant, andererseits ist sie anstrengend.",
+              "exampleUk": "З одного боку робота цікава, з іншого — виснажлива."
+            },
+            {
+              "de": "außerdem",
+              "uk": "крім того",
+              "example": "Außerdem sammle ich praktische Erfahrung.",
+              "exampleUk": "Крім того, я здобуваю практичний досвід."
+            },
+            {
+              "de": "deshalb",
+              "uk": "тому",
+              "example": "Ich bin krank, deshalb bleibe ich zu Hause.",
+              "exampleUk": "Я хворий, тому залишаюся вдома."
+            },
+            {
+              "de": "obwohl",
+              "uk": "хоча",
+              "example": "Obwohl es regnet, gehen wir spazieren.",
+              "exampleUk": "Хоча дощить, ми йдемо гуляти."
+            },
+            {
+              "de": "dennoch",
+              "uk": "проте",
+              "example": "Die Aufgabe war schwierig, dennoch habe ich sie gelöst.",
+              "exampleUk": "Завдання було складним, проте я його розв’язав."
+            },
+            {
+              "de": "der Vorteil",
+              "uk": "перевага",
+              "example": "Ein Vorteil ist die flexible Arbeitszeit.",
+              "exampleUk": "Перевагою є гнучкий робочий час."
+            },
+            {
+              "de": "der Nachteil",
+              "uk": "недолік",
+              "example": "Der Nachteil ist der lange Arbeitsweg.",
+              "exampleUk": "Недоліком є довга дорога на роботу."
+            },
+            {
+              "de": "überzeugen",
+              "uk": "переконувати",
+              "example": "Seine Argumente haben mich überzeugt.",
+              "exampleUk": "Його аргументи мене переконали."
+            },
+            {
+              "de": "behaupten",
+              "uk": "стверджувати",
+              "example": "Er behauptet, dass die Lösung richtig ist.",
+              "exampleUk": "Він стверджує, що рішення правильне."
+            },
+            {
+              "de": "nachweisen",
+              "uk": "доводити, підтверджувати",
+              "example": "Die Studie weist den Zusammenhang nach.",
+              "exampleUk": "Дослідження підтверджує зв’язок."
+            }
+          ]
+        },
+        {
+          "title": "Робота і професія B1–B2",
+          "words": [
+            {
+              "de": "die Berufserfahrung",
+              "uk": "професійний досвід",
+              "example": "Für die Stelle ist Berufserfahrung erwünscht.",
+              "exampleUk": "Для цієї посади бажаний професійний досвід."
+            },
+            {
+              "de": "die Fähigkeit",
+              "uk": "здібність, навичка",
+              "example": "Teamfähigkeit ist eine wichtige Fähigkeit.",
+              "exampleUk": "Уміння працювати в команді — важлива навичка."
+            },
+            {
+              "de": "die Verantwortung",
+              "uk": "відповідальність",
+              "example": "Ich übernehme gern Verantwortung.",
+              "exampleUk": "Я охоче беру на себе відповідальність."
+            },
+            {
+              "de": "selbstständig",
+              "uk": "самостійний",
+              "example": "Sie arbeitet sehr selbstständig.",
+              "exampleUk": "Вона працює дуже самостійно."
+            },
+            {
+              "de": "zuverlässig",
+              "uk": "надійний",
+              "example": "Er ist pünktlich und zuverlässig.",
+              "exampleUk": "Він пунктуальний і надійний."
+            },
+            {
+              "de": "die Arbeitszeit",
+              "uk": "робочий час",
+              "example": "Meine Arbeitszeit beginnt um sieben Uhr.",
+              "exampleUk": "Мій робочий час починається о сьомій."
+            },
+            {
+              "de": "die Schicht",
+              "uk": "зміна",
+              "example": "Diese Woche arbeite ich in der Frühschicht.",
+              "exampleUk": "Цього тижня я працюю в ранню зміну."
+            },
+            {
+              "de": "die Aufgabe",
+              "uk": "обов’язок, завдання",
+              "example": "Zu meinen Aufgaben gehört die Dokumentation.",
+              "exampleUk": "До моїх обов’язків належить документація."
+            },
+            {
+              "de": "sich bewerben um",
+              "uk": "подаватися на",
+              "example": "Ich bewerbe mich um einen Ausbildungsplatz.",
+              "exampleUk": "Я подаюся на місце професійного навчання."
+            },
+            {
+              "de": "das Vorstellungsgespräch",
+              "uk": "співбесіда",
+              "example": "Morgen habe ich ein Vorstellungsgespräch.",
+              "exampleUk": "Завтра в мене співбесіда."
+            },
+            {
+              "de": "die Kündigung",
+              "uk": "звільнення, розірвання договору",
+              "example": "Die Kündigung muss schriftlich erfolgen.",
+              "exampleUk": "Розірвання договору має бути письмовим."
+            },
+            {
+              "de": "die Vereinbarung",
+              "uk": "домовленість",
+              "example": "Wir halten uns an die Vereinbarung.",
+              "exampleUk": "Ми дотримуємося домовленості."
             }
           ]
         }
@@ -192,6 +476,148 @@
               "exampleUk": "Будьте готові загальмувати."
             }
           ]
+        },
+        {
+          "title": "Небезпечні ситуації",
+          "words": [
+            {
+              "de": "der Bremsweg",
+              "uk": "гальмівний шлях",
+              "example": "Bei Nässe wird der Bremsweg länger.",
+              "exampleUk": "На мокрій дорозі гальмівний шлях довший."
+            },
+            {
+              "de": "der Reaktionsweg",
+              "uk": "шлях реакції",
+              "example": "Der Reaktionsweg hängt von der Geschwindigkeit ab.",
+              "exampleUk": "Шлях реакції залежить від швидкості."
+            },
+            {
+              "de": "die Gefahrenbremsung",
+              "uk": "екстрене гальмування",
+              "example": "Bei Gefahr müssen Sie eine Gefahrenbremsung machen.",
+              "exampleUk": "У разі небезпеки треба виконати екстрене гальмування."
+            },
+            {
+              "de": "die Sichtweite",
+              "uk": "дальність видимості",
+              "example": "Passen Sie die Geschwindigkeit der Sichtweite an.",
+              "exampleUk": "Пристосуйте швидкість до дальності видимості."
+            },
+            {
+              "de": "die Fahrbahn",
+              "uk": "проїзна частина",
+              "example": "Die Fahrbahn ist glatt.",
+              "exampleUk": "Проїзна частина слизька."
+            },
+            {
+              "de": "der tote Winkel",
+              "uk": "сліпа зона",
+              "example": "Achten Sie auf den toten Winkel.",
+              "exampleUk": "Звертайте увагу на сліпу зону."
+            },
+            {
+              "de": "der Fußgängerüberweg",
+              "uk": "пішохідний перехід",
+              "example": "Vor dem Fußgängerüberweg müssen Sie bremsbereit sein.",
+              "exampleUk": "Перед пішохідним переходом треба бути готовим загальмувати."
+            },
+            {
+              "de": "die Baustelle",
+              "uk": "дорожні роботи",
+              "example": "An der Baustelle gilt Tempo 30.",
+              "exampleUk": "Біля дорожніх робіт діє обмеження 30."
+            },
+            {
+              "de": "die Umleitung",
+              "uk": "об’їзд",
+              "example": "Folgen Sie der ausgeschilderten Umleitung.",
+              "exampleUk": "Дотримуйтеся позначеного об’їзду."
+            },
+            {
+              "de": "die Panne",
+              "uk": "поломка",
+              "example": "Bei einer Panne sichern Sie zuerst die Unfallstelle.",
+              "exampleUk": "У разі поломки спочатку убезпечте місце."
+            }
+          ]
+        },
+        {
+          "title": "Дорожні знаки та пріоритет",
+          "words": [
+            {
+              "de": "die Vorfahrt",
+              "uk": "переважне право проїзду",
+              "example": "An dieser Kreuzung haben Sie Vorfahrt.",
+              "exampleUk": "На цьому перехресті ви маєте перевагу."
+            },
+            {
+              "de": "Vorfahrt gewähren",
+              "uk": "дати дорогу",
+              "example": "Sie müssen dem Verkehr Vorfahrt gewähren.",
+              "exampleUk": "Ви повинні дати дорогу транспорту."
+            },
+            {
+              "de": "die Einbahnstraße",
+              "uk": "вулиця з одностороннім рухом",
+              "example": "Diese Straße ist eine Einbahnstraße.",
+              "exampleUk": "Ця вулиця має односторонній рух."
+            },
+            {
+              "de": "das Überholverbot",
+              "uk": "заборона обгону",
+              "example": "Hier gilt ein Überholverbot.",
+              "exampleUk": "Тут діє заборона обгону."
+            },
+            {
+              "de": "die Geschwindigkeitsbegrenzung",
+              "uk": "обмеження швидкості",
+              "example": "Beachten Sie die Geschwindigkeitsbegrenzung.",
+              "exampleUk": "Дотримуйтеся обмеження швидкості."
+            },
+            {
+              "de": "das Halteverbot",
+              "uk": "заборона зупинки",
+              "example": "Im Halteverbot dürfen Sie nicht halten.",
+              "exampleUk": "У зоні заборони зупинки не можна зупинятися."
+            },
+            {
+              "de": "der Kreisverkehr",
+              "uk": "кільцевий рух",
+              "example": "Im Kreisverkehr fahren Sie rechts.",
+              "exampleUk": "На кільцевому русі ви їдете праворуч."
+            },
+            {
+              "de": "der Gegenverkehr",
+              "uk": "зустрічний рух",
+              "example": "Achten Sie auf den Gegenverkehr.",
+              "exampleUk": "Звертайте увагу на зустрічний рух."
+            },
+            {
+              "de": "abbiegen",
+              "uk": "повертати",
+              "example": "Vor dem Abbiegen müssen Sie blinken.",
+              "exampleUk": "Перед поворотом треба ввімкнути покажчик повороту."
+            },
+            {
+              "de": "der Fahrstreifen",
+              "uk": "смуга руху",
+              "example": "Wechseln Sie rechtzeitig den Fahrstreifen.",
+              "exampleUk": "Завчасно змініть смугу руху."
+            },
+            {
+              "de": "die Kreuzung",
+              "uk": "перехрестя",
+              "example": "An der Kreuzung fahren wir geradeaus.",
+              "exampleUk": "На перехресті ми їдемо прямо."
+            },
+            {
+              "de": "die Ampel",
+              "uk": "світлофор",
+              "example": "Die Ampel zeigt Rot.",
+              "exampleUk": "Світлофор показує червоне світло."
+            }
+          ]
         }
       ]
     },
@@ -234,6 +660,148 @@
               "exampleUk": "Потрібні хороші попередні знання."
             }
           ]
+        },
+        {
+          "title": "Організація навчання",
+          "words": [
+            {
+              "de": "die Frist",
+              "uk": "кінцевий термін",
+              "example": "Die Frist endet am Freitag.",
+              "exampleUk": "Кінцевий термін спливає у п’ятницю."
+            },
+            {
+              "de": "einreichen",
+              "uk": "подавати",
+              "example": "Bitte reichen Sie die Unterlagen online ein.",
+              "exampleUk": "Будь ласка, подайте документи онлайн."
+            },
+            {
+              "de": "die Voraussetzung",
+              "uk": "передумова, вимога",
+              "example": "Deutschkenntnisse sind eine wichtige Voraussetzung.",
+              "exampleUk": "Знання німецької є важливою вимогою."
+            },
+            {
+              "de": "die Anwesenheitspflicht",
+              "uk": "обов’язкове відвідування",
+              "example": "In diesem Kurs gilt Anwesenheitspflicht.",
+              "exampleUk": "На цьому курсі відвідування обов’язкове."
+            },
+            {
+              "de": "die Bescheinigung",
+              "uk": "довідка, підтвердження",
+              "example": "Ich brauche eine Bescheinigung für die Schule.",
+              "exampleUk": "Мені потрібна довідка для школи."
+            },
+            {
+              "de": "die Rückmeldung",
+              "uk": "зворотний зв’язок",
+              "example": "Die Lehrerin gibt mir eine hilfreiche Rückmeldung.",
+              "exampleUk": "Учителька дає мені корисний зворотний зв’язок."
+            },
+            {
+              "de": "sich vorbereiten auf",
+              "uk": "готуватися до",
+              "example": "Ich bereite mich auf die Prüfung vor.",
+              "exampleUk": "Я готуюся до іспиту."
+            },
+            {
+              "de": "bestehen",
+              "uk": "скласти іспит",
+              "example": "Sie hat die Prüfung bestanden.",
+              "exampleUk": "Вона склала іспит."
+            },
+            {
+              "de": "durchfallen",
+              "uk": "не скласти іспит",
+              "example": "Er ist leider durch die Prüfung gefallen.",
+              "exampleUk": "На жаль, він не склав іспит."
+            },
+            {
+              "de": "die Leistung",
+              "uk": "успішність, результат",
+              "example": "Seine Leistungen haben sich verbessert.",
+              "exampleUk": "Його результати покращилися."
+            }
+          ]
+        },
+        {
+          "title": "Презентація та дискусія",
+          "words": [
+            {
+              "de": "das Thema vorstellen",
+              "uk": "представити тему",
+              "example": "Zuerst möchte ich das Thema vorstellen.",
+              "exampleUk": "Спочатку я хочу представити тему."
+            },
+            {
+              "de": "die Gliederung",
+              "uk": "структура, план",
+              "example": "Meine Präsentation hat eine klare Gliederung.",
+              "exampleUk": "Моя презентація має чітку структуру."
+            },
+            {
+              "de": "erläutern",
+              "uk": "пояснювати докладно",
+              "example": "Ich möchte diesen Punkt näher erläutern.",
+              "exampleUk": "Я хочу докладніше пояснити цей пункт."
+            },
+            {
+              "de": "hervorheben",
+              "uk": "підкреслювати",
+              "example": "Ich möchte einen Vorteil hervorheben.",
+              "exampleUk": "Я хочу підкреслити одну перевагу."
+            },
+            {
+              "de": "die Grafik",
+              "uk": "графік, діаграма",
+              "example": "Die Grafik zeigt eine deutliche Entwicklung.",
+              "exampleUk": "Графік показує чітку тенденцію."
+            },
+            {
+              "de": "zunehmen",
+              "uk": "зростати",
+              "example": "Die Zahl der Teilnehmer nimmt zu.",
+              "exampleUk": "Кількість учасників зростає."
+            },
+            {
+              "de": "abnehmen",
+              "uk": "зменшуватися",
+              "example": "Der Energieverbrauch nimmt ab.",
+              "exampleUk": "Споживання енергії зменшується."
+            },
+            {
+              "de": "im Vergleich zu",
+              "uk": "порівняно з",
+              "example": "Im Vergleich zum Vorjahr ist das Ergebnis besser.",
+              "exampleUk": "Порівняно з минулим роком результат кращий."
+            },
+            {
+              "de": "eine Frage stellen",
+              "uk": "поставити запитання",
+              "example": "Darf ich eine Frage stellen?",
+              "exampleUk": "Можна поставити запитання?"
+            },
+            {
+              "de": "darauf eingehen",
+              "uk": "зупинитися на цьому, розглянути",
+              "example": "Darauf gehe ich später genauer ein.",
+              "exampleUk": "На цьому я пізніше зупинюся докладніше."
+            },
+            {
+              "de": "zusammenfassend",
+              "uk": "підсумовуючи",
+              "example": "Zusammenfassend kann man sagen, dass das Projekt erfolgreich war.",
+              "exampleUk": "Підсумовуючи, можна сказати, що проєкт був успішним."
+            },
+            {
+              "de": "die Rückfrage",
+              "uk": "уточнювальне запитання",
+              "example": "Nach dem Vortrag gab es mehrere Rückfragen.",
+              "exampleUk": "Після доповіді було кілька уточнювальних запитань."
+            }
+          ]
         }
       ]
     },
@@ -243,37 +811,926 @@
       "description": "Шкільні предмети, завдання і фрази для уроку",
       "lessons": [
         {
-          "title": "На уроці",
+          "title": "У класі",
           "words": [
             {
-              "de": "die Aufgabe",
-              "uk": "завдання",
-              "example": "Ich habe die Aufgabe nicht verstanden.",
-              "exampleUk": "Я не зрозумів завдання."
+              "de": "die Tafel",
+              "uk": "дошка",
+              "example": "Die Lehrerin schreibt an die Tafel.",
+              "exampleUk": "Учителька пише на дошці."
             },
             {
-              "de": "erklären",
-              "uk": "пояснювати",
-              "example": "Können Sie das bitte erklären?",
-              "exampleUk": "Можете, будь ласка, це пояснити?"
+              "de": "der Stundenplan",
+              "uk": "розклад уроків",
+              "example": "Mein Stundenplan hängt an der Wand.",
+              "exampleUk": "Мій розклад уроків висить на стіні."
             },
             {
-              "de": "sich melden",
-              "uk": "піднімати руку",
-              "example": "Melde dich, wenn du die Antwort weißt.",
-              "exampleUk": "Підніми руку, якщо знаєш відповідь."
+              "de": "das Arbeitsblatt",
+              "uk": "робочий аркуш",
+              "example": "Wir bekommen ein Arbeitsblatt.",
+              "exampleUk": "Ми отримуємо робочий аркуш."
             },
             {
               "de": "die Hausaufgabe",
               "uk": "домашнє завдання",
-              "example": "Wir machen die Hausaufgabe bis morgen.",
-              "exampleUk": "Ми робимо домашнє завдання до завтра."
+              "example": "Ich mache meine Hausaufgaben nach der Schule.",
+              "exampleUk": "Я роблю домашнє завдання після школи."
             },
             {
-              "de": "abgeben",
-              "uk": "здавати",
-              "example": "Bitte gebt eure Hefte ab.",
-              "exampleUk": "Будь ласка, здайте зошити."
+              "de": "sich melden",
+              "uk": "піднімати руку, зголошуватися",
+              "example": "Bitte melde dich, bevor du sprichst.",
+              "exampleUk": "Будь ласка, підніми руку перед тим, як говорити."
+            },
+            {
+              "de": "erklären",
+              "uk": "пояснювати",
+              "example": "Der Lehrer erklärt die Aufgabe.",
+              "exampleUk": "Учитель пояснює завдання."
+            },
+            {
+              "de": "wiederholen",
+              "uk": "повторювати",
+              "example": "Kannst du die Frage wiederholen?",
+              "exampleUk": "Можеш повторити запитання?"
+            },
+            {
+              "de": "abschreiben",
+              "uk": "переписувати",
+              "example": "Schreibt bitte den Satz ab.",
+              "exampleUk": "Будь ласка, перепишіть речення."
+            },
+            {
+              "de": "die Pause",
+              "uk": "перерва",
+              "example": "In der Pause gehe ich auf den Schulhof.",
+              "exampleUk": "На перерві я йду на шкільне подвір’я."
+            },
+            {
+              "de": "pünktlich",
+              "uk": "вчасно",
+              "example": "Ich komme jeden Morgen pünktlich.",
+              "exampleUk": "Я приходжу щоранку вчасно."
+            },
+            {
+              "de": "fehlen",
+              "uk": "бути відсутнім; бракувати",
+              "example": "Heute fehlen zwei Schüler.",
+              "exampleUk": "Сьогодні відсутні двоє учнів."
+            },
+            {
+              "de": "die Note",
+              "uk": "оцінка",
+              "example": "Ich habe eine gute Note bekommen.",
+              "exampleUk": "Я отримав гарну оцінку."
+            }
+          ]
+        },
+        {
+          "title": "Шкільне приладдя",
+          "words": [
+            {
+              "de": "der Bleistift",
+              "uk": "олівець",
+              "example": "Ich schreibe mit einem Bleistift.",
+              "exampleUk": "Я пишу олівцем."
+            },
+            {
+              "de": "der Kugelschreiber",
+              "uk": "ручка",
+              "example": "Mein Kugelschreiber ist blau.",
+              "exampleUk": "Моя ручка синя."
+            },
+            {
+              "de": "der Radiergummi",
+              "uk": "гумка",
+              "example": "Kann ich deinen Radiergummi benutzen?",
+              "exampleUk": "Можна скористатися твоєю гумкою?"
+            },
+            {
+              "de": "das Lineal",
+              "uk": "лінійка",
+              "example": "Zeichne eine Linie mit dem Lineal.",
+              "exampleUk": "Накресли лінію лінійкою."
+            },
+            {
+              "de": "der Spitzer",
+              "uk": "точилка",
+              "example": "Der Spitzer liegt im Mäppchen.",
+              "exampleUk": "Точилка лежить у пеналі."
+            },
+            {
+              "de": "das Mäppchen",
+              "uk": "пенал",
+              "example": "Mein Mäppchen ist im Rucksack.",
+              "exampleUk": "Мій пенал у рюкзаку."
+            },
+            {
+              "de": "der Ordner",
+              "uk": "папка-реєстратор",
+              "example": "Die Blätter sind im Ordner.",
+              "exampleUk": "Аркуші в папці."
+            },
+            {
+              "de": "das Heft",
+              "uk": "зошит",
+              "example": "Öffnet bitte eure Hefte.",
+              "exampleUk": "Відкрийте, будь ласка, свої зошити."
+            },
+            {
+              "de": "der Taschenrechner",
+              "uk": "калькулятор",
+              "example": "Für die Aufgabe brauche ich einen Taschenrechner.",
+              "exampleUk": "Для завдання мені потрібен калькулятор."
+            },
+            {
+              "de": "die Schere",
+              "uk": "ножиці",
+              "example": "Schneide das Bild mit der Schere aus.",
+              "exampleUk": "Виріж зображення ножицями."
+            },
+            {
+              "de": "der Klebstoff",
+              "uk": "клей",
+              "example": "Wir brauchen Klebstoff für das Plakat.",
+              "exampleUk": "Нам потрібен клей для плаката."
+            },
+            {
+              "de": "der Rucksack",
+              "uk": "рюкзак",
+              "example": "Mein Rucksack ist ziemlich schwer.",
+              "exampleUk": "Мій рюкзак доволі важкий."
+            }
+          ]
+        },
+        {
+          "title": "Математика",
+          "words": [
+            {
+              "de": "addieren",
+              "uk": "додавати",
+              "example": "Wir addieren zuerst beide Zahlen.",
+              "exampleUk": "Спочатку ми додаємо обидва числа."
+            },
+            {
+              "de": "subtrahieren",
+              "uk": "віднімати",
+              "example": "Subtrahiere fünf von zwölf.",
+              "exampleUk": "Відніми п’ять від дванадцяти."
+            },
+            {
+              "de": "multiplizieren",
+              "uk": "множити",
+              "example": "Drei multipliziert mit vier ist zwölf.",
+              "exampleUk": "Три помножити на чотири — дванадцять."
+            },
+            {
+              "de": "dividieren",
+              "uk": "ділити",
+              "example": "Zwanzig dividiert durch fünf ist vier.",
+              "exampleUk": "Двадцять поділити на п’ять — чотири."
+            },
+            {
+              "de": "der Bruch",
+              "uk": "дріб",
+              "example": "Ein Halb ist ein Bruch.",
+              "exampleUk": "Одна друга — це дріб."
+            },
+            {
+              "de": "der Zähler",
+              "uk": "чисельник",
+              "example": "Der Zähler steht über dem Bruchstrich.",
+              "exampleUk": "Чисельник стоїть над рискою дробу."
+            },
+            {
+              "de": "der Nenner",
+              "uk": "знаменник",
+              "example": "Der Nenner steht unter dem Bruchstrich.",
+              "exampleUk": "Знаменник стоїть під рискою дробу."
+            },
+            {
+              "de": "die Gleichung",
+              "uk": "рівняння",
+              "example": "Löse die Gleichung.",
+              "exampleUk": "Розв’яжи рівняння."
+            },
+            {
+              "de": "das Ergebnis",
+              "uk": "результат",
+              "example": "Kontrolliere dein Ergebnis.",
+              "exampleUk": "Перевір свій результат."
+            },
+            {
+              "de": "der Winkel",
+              "uk": "кут",
+              "example": "Dieser Winkel beträgt neunzig Grad.",
+              "exampleUk": "Цей кут становить дев’яносто градусів."
+            },
+            {
+              "de": "die Fläche",
+              "uk": "площа",
+              "example": "Wir berechnen die Fläche des Rechtecks.",
+              "exampleUk": "Ми обчислюємо площу прямокутника."
+            },
+            {
+              "de": "der Umfang",
+              "uk": "периметр",
+              "example": "Der Umfang beträgt zwanzig Zentimeter.",
+              "exampleUk": "Периметр становить двадцять сантиметрів."
+            }
+          ]
+        },
+        {
+          "title": "Біологія",
+          "words": [
+            {
+              "de": "die Zelle",
+              "uk": "клітина",
+              "example": "Die Zelle ist die kleinste Einheit des Lebens.",
+              "exampleUk": "Клітина — найменша одиниця життя."
+            },
+            {
+              "de": "das Gewebe",
+              "uk": "тканина",
+              "example": "Viele Zellen bilden ein Gewebe.",
+              "exampleUk": "Багато клітин утворюють тканину."
+            },
+            {
+              "de": "das Organ",
+              "uk": "орган",
+              "example": "Das Herz ist ein wichtiges Organ.",
+              "exampleUk": "Серце — важливий орган."
+            },
+            {
+              "de": "die Lunge",
+              "uk": "легеня",
+              "example": "Die Lunge versorgt den Körper mit Sauerstoff.",
+              "exampleUk": "Легені забезпечують організм киснем."
+            },
+            {
+              "de": "der Kreislauf",
+              "uk": "кровообіг",
+              "example": "Bewegung stärkt den Kreislauf.",
+              "exampleUk": "Рух зміцнює кровообіг."
+            },
+            {
+              "de": "die Verdauung",
+              "uk": "травлення",
+              "example": "Die Verdauung beginnt im Mund.",
+              "exampleUk": "Травлення починається в роті."
+            },
+            {
+              "de": "die Wirbelsäule",
+              "uk": "хребет",
+              "example": "Die Wirbelsäule stützt den Körper.",
+              "exampleUk": "Хребет підтримує тіло."
+            },
+            {
+              "de": "das Säugetier",
+              "uk": "ссавець",
+              "example": "Der Delfin ist ein Säugetier.",
+              "exampleUk": "Дельфін — ссавець."
+            },
+            {
+              "de": "die Nahrungskette",
+              "uk": "харчовий ланцюг",
+              "example": "Wir zeichnen eine Nahrungskette.",
+              "exampleUk": "Ми малюємо харчовий ланцюг."
+            },
+            {
+              "de": "die Art",
+              "uk": "вид",
+              "example": "Diese Art lebt nur in Europa.",
+              "exampleUk": "Цей вид живе лише в Європі."
+            },
+            {
+              "de": "sich fortpflanzen",
+              "uk": "розмножуватися",
+              "example": "Tiere pflanzen sich unterschiedlich fort.",
+              "exampleUk": "Тварини розмножуються по-різному."
+            },
+            {
+              "de": "aussterben",
+              "uk": "вимирати",
+              "example": "Manche Tierarten drohen auszusterben.",
+              "exampleUk": "Деяким видам тварин загрожує вимирання."
+            }
+          ]
+        },
+        {
+          "title": "Географія",
+          "words": [
+            {
+              "de": "der Kontinent",
+              "uk": "континент",
+              "example": "Europa ist ein Kontinent.",
+              "exampleUk": "Європа — це континент."
+            },
+            {
+              "de": "die Hauptstadt",
+              "uk": "столиця",
+              "example": "Berlin ist die Hauptstadt Deutschlands.",
+              "exampleUk": "Берлін — столиця Німеччини."
+            },
+            {
+              "de": "die Grenze",
+              "uk": "кордон",
+              "example": "Der Fluss bildet eine natürliche Grenze.",
+              "exampleUk": "Річка утворює природний кордон."
+            },
+            {
+              "de": "das Gebirge",
+              "uk": "гірський масив",
+              "example": "Die Alpen sind ein großes Gebirge.",
+              "exampleUk": "Альпи — великий гірський масив."
+            },
+            {
+              "de": "die Küste",
+              "uk": "узбережжя",
+              "example": "An der Küste ist es oft windig.",
+              "exampleUk": "На узбережжі часто вітряно."
+            },
+            {
+              "de": "die Bevölkerung",
+              "uk": "населення",
+              "example": "Die Bevölkerung der Stadt wächst.",
+              "exampleUk": "Населення міста зростає."
+            },
+            {
+              "de": "das Klima",
+              "uk": "клімат",
+              "example": "Das Klima verändert sich.",
+              "exampleUk": "Клімат змінюється."
+            },
+            {
+              "de": "die Wüste",
+              "uk": "пустеля",
+              "example": "In der Wüste fällt wenig Regen.",
+              "exampleUk": "У пустелі випадає мало дощу."
+            },
+            {
+              "de": "der Äquator",
+              "uk": "екватор",
+              "example": "Der Äquator teilt die Erde in zwei Hälften.",
+              "exampleUk": "Екватор ділить Землю на дві половини."
+            },
+            {
+              "de": "die Landkarte",
+              "uk": "карта",
+              "example": "Zeig mir das Land auf der Landkarte.",
+              "exampleUk": "Покажи мені країну на карті."
+            },
+            {
+              "de": "die Himmelsrichtung",
+              "uk": "сторона світу",
+              "example": "Norden ist eine Himmelsrichtung.",
+              "exampleUk": "Північ — це сторона світу."
+            },
+            {
+              "de": "die Landschaft",
+              "uk": "ландшафт",
+              "example": "Die Landschaft ist sehr abwechslungsreich.",
+              "exampleUk": "Ландшафт дуже різноманітний."
+            }
+          ]
+        },
+        {
+          "title": "Інформатика",
+          "words": [
+            {
+              "de": "die Datei",
+              "uk": "файл",
+              "example": "Speichere die Datei auf dem Computer.",
+              "exampleUk": "Збережи файл на комп’ютері."
+            },
+            {
+              "de": "der Ordner",
+              "uk": "папка",
+              "example": "Die Bilder liegen in diesem Ordner.",
+              "exampleUk": "Зображення лежать у цій папці."
+            },
+            {
+              "de": "herunterladen",
+              "uk": "завантажувати",
+              "example": "Ich lade das Dokument herunter.",
+              "exampleUk": "Я завантажую документ."
+            },
+            {
+              "de": "hochladen",
+              "uk": "завантажувати в інтернет",
+              "example": "Lade deine Aufgabe hoch.",
+              "exampleUk": "Завантаж своє завдання."
+            },
+            {
+              "de": "speichern",
+              "uk": "зберігати",
+              "example": "Vergiss nicht, den Text zu speichern.",
+              "exampleUk": "Не забудь зберегти текст."
+            },
+            {
+              "de": "löschen",
+              "uk": "видаляти",
+              "example": "Ich lösche die alte Datei.",
+              "exampleUk": "Я видаляю старий файл."
+            },
+            {
+              "de": "das Passwort",
+              "uk": "пароль",
+              "example": "Mein Passwort ist sicher.",
+              "exampleUk": "Мій пароль надійний."
+            },
+            {
+              "de": "der Benutzername",
+              "uk": "ім’я користувача",
+              "example": "Gib deinen Benutzernamen ein.",
+              "exampleUk": "Введи своє ім’я користувача."
+            },
+            {
+              "de": "die Suchmaschine",
+              "uk": "пошукова система",
+              "example": "Wir benutzen eine Suchmaschine.",
+              "exampleUk": "Ми користуємося пошуковою системою."
+            },
+            {
+              "de": "die Webseite",
+              "uk": "вебсторінка",
+              "example": "Die Webseite lädt sehr langsam.",
+              "exampleUk": "Вебсторінка завантажується дуже повільно."
+            },
+            {
+              "de": "der Bildschirm",
+              "uk": "екран",
+              "example": "Der Bildschirm ist zu dunkel.",
+              "exampleUk": "Екран надто темний."
+            },
+            {
+              "de": "die Tastatur",
+              "uk": "клавіатура",
+              "example": "Die Tastatur funktioniert nicht.",
+              "exampleUk": "Клавіатура не працює."
+            }
+          ]
+        },
+        {
+          "title": "Німецька мова",
+          "words": [
+            {
+              "de": "das Nomen",
+              "uk": "іменник",
+              "example": "Ein Nomen schreibt man groß.",
+              "exampleUk": "Іменник пишуть з великої літери."
+            },
+            {
+              "de": "das Verb",
+              "uk": "дієслово",
+              "example": "Das Verb steht oft an zweiter Stelle.",
+              "exampleUk": "Дієслово часто стоїть на другому місці."
+            },
+            {
+              "de": "das Adjektiv",
+              "uk": "прикметник",
+              "example": "Das Adjektiv beschreibt ein Nomen.",
+              "exampleUk": "Прикметник описує іменник."
+            },
+            {
+              "de": "der Artikel",
+              "uk": "артикль",
+              "example": "Welchen Artikel hat das Wort?",
+              "exampleUk": "Який артикль має це слово?"
+            },
+            {
+              "de": "der Satz",
+              "uk": "речення",
+              "example": "Schreibe einen vollständigen Satz.",
+              "exampleUk": "Напиши повне речення."
+            },
+            {
+              "de": "die Zeitform",
+              "uk": "часова форма",
+              "example": "Das Perfekt ist eine Zeitform.",
+              "exampleUk": "Перфект — це часова форма."
+            },
+            {
+              "de": "die Mehrzahl",
+              "uk": "множина",
+              "example": "Wie lautet die Mehrzahl von Haus?",
+              "exampleUk": "Яка множина слова Haus?"
+            },
+            {
+              "de": "die Rechtschreibung",
+              "uk": "правопис",
+              "example": "Achte auf die Rechtschreibung.",
+              "exampleUk": "Звертай увагу на правопис."
+            },
+            {
+              "de": "der Fehler",
+              "uk": "помилка",
+              "example": "Verbessere bitte den Fehler.",
+              "exampleUk": "Будь ласка, виправ помилку."
+            },
+            {
+              "de": "die Bedeutung",
+              "uk": "значення",
+              "example": "Ich kenne die Bedeutung des Wortes nicht.",
+              "exampleUk": "Я не знаю значення цього слова."
+            },
+            {
+              "de": "übersetzen",
+              "uk": "перекладати",
+              "example": "Übersetze den Text ins Ukrainische.",
+              "exampleUk": "Переклади текст українською."
+            },
+            {
+              "de": "zusammenfassen",
+              "uk": "підсумовувати",
+              "example": "Fasse den Text kurz zusammen.",
+              "exampleUk": "Коротко підсумуй текст."
+            }
+          ]
+        },
+        {
+          "title": "Історія та суспільство",
+          "words": [
+            {
+              "de": "das Jahrhundert",
+              "uk": "століття",
+              "example": "Das geschah im neunzehnten Jahrhundert.",
+              "exampleUk": "Це сталося в дев’ятнадцятому столітті."
+            },
+            {
+              "de": "die Regierung",
+              "uk": "уряд",
+              "example": "Die Regierung beschließt neue Regeln.",
+              "exampleUk": "Уряд ухвалює нові правила."
+            },
+            {
+              "de": "die Wahl",
+              "uk": "вибори",
+              "example": "Die Wahl findet am Sonntag statt.",
+              "exampleUk": "Вибори відбудуться в неділю."
+            },
+            {
+              "de": "das Gesetz",
+              "uk": "закон",
+              "example": "Alle müssen das Gesetz beachten.",
+              "exampleUk": "Усі повинні дотримуватися закону."
+            },
+            {
+              "de": "die Demokratie",
+              "uk": "демократія",
+              "example": "In einer Demokratie dürfen Bürger wählen.",
+              "exampleUk": "У демократії громадяни можуть голосувати."
+            },
+            {
+              "de": "die Verfassung",
+              "uk": "конституція",
+              "example": "Die Verfassung schützt Grundrechte.",
+              "exampleUk": "Конституція захищає основні права."
+            },
+            {
+              "de": "der Frieden",
+              "uk": "мир",
+              "example": "Alle Menschen wünschen sich Frieden.",
+              "exampleUk": "Усі люди бажають миру."
+            },
+            {
+              "de": "der Krieg",
+              "uk": "війна",
+              "example": "Der Krieg zerstörte viele Städte.",
+              "exampleUk": "Війна зруйнувала багато міст."
+            },
+            {
+              "de": "die Bevölkerung",
+              "uk": "населення",
+              "example": "Die Bevölkerung litt unter der Krise.",
+              "exampleUk": "Населення страждало від кризи."
+            },
+            {
+              "de": "die Quelle",
+              "uk": "джерело",
+              "example": "Wir untersuchen eine historische Quelle.",
+              "exampleUk": "Ми досліджуємо історичне джерело."
+            },
+            {
+              "de": "die Ursache",
+              "uk": "причина",
+              "example": "Was war die Ursache des Konflikts?",
+              "exampleUk": "Якою була причина конфлікту?"
+            },
+            {
+              "de": "die Folge",
+              "uk": "наслідок",
+              "example": "Die Folge war eine große Veränderung.",
+              "exampleUk": "Наслідком була велика зміна."
+            }
+          ]
+        },
+        {
+          "title": "Фізика",
+          "words": [
+            {
+              "de": "die Geschwindigkeit",
+              "uk": "швидкість",
+              "example": "Die Geschwindigkeit wird in Kilometern pro Stunde gemessen.",
+              "exampleUk": "Швидкість вимірюють у кілометрах за годину."
+            },
+            {
+              "de": "die Kraft",
+              "uk": "сила",
+              "example": "Eine Kraft kann einen Körper bewegen.",
+              "exampleUk": "Сила може рухати тіло."
+            },
+            {
+              "de": "die Masse",
+              "uk": "маса",
+              "example": "Die Masse wird in Kilogramm angegeben.",
+              "exampleUk": "Масу зазначають у кілограмах."
+            },
+            {
+              "de": "die Energie",
+              "uk": "енергія",
+              "example": "Die Sonne liefert Energie.",
+              "exampleUk": "Сонце постачає енергію."
+            },
+            {
+              "de": "die Bewegung",
+              "uk": "рух",
+              "example": "Wir beobachten die Bewegung des Balls.",
+              "exampleUk": "Ми спостерігаємо за рухом м’яча."
+            },
+            {
+              "de": "die Reibung",
+              "uk": "тертя",
+              "example": "Reibung bremst die Bewegung.",
+              "exampleUk": "Тертя сповільнює рух."
+            },
+            {
+              "de": "die Temperatur",
+              "uk": "температура",
+              "example": "Die Temperatur steigt langsam.",
+              "exampleUk": "Температура повільно підвищується."
+            },
+            {
+              "de": "messen",
+              "uk": "вимірювати",
+              "example": "Wir messen die Länge des Tisches.",
+              "exampleUk": "Ми вимірюємо довжину столу."
+            },
+            {
+              "de": "das Experiment",
+              "uk": "експеримент",
+              "example": "Das Experiment dauert zehn Minuten.",
+              "exampleUk": "Експеримент триває десять хвилин."
+            },
+            {
+              "de": "beobachten",
+              "uk": "спостерігати",
+              "example": "Beobachte genau, was passiert.",
+              "exampleUk": "Уважно спостерігай, що відбувається."
+            },
+            {
+              "de": "die Einheit",
+              "uk": "одиниця вимірювання",
+              "example": "Der Meter ist eine Einheit der Länge.",
+              "exampleUk": "Метр — одиниця довжини."
+            },
+            {
+              "de": "das Gewicht",
+              "uk": "вага",
+              "example": "Das Gewicht hängt von der Schwerkraft ab.",
+              "exampleUk": "Вага залежить від сили тяжіння."
+            }
+          ]
+        },
+        {
+          "title": "Хімія",
+          "words": [
+            {
+              "de": "der Stoff",
+              "uk": "речовина",
+              "example": "Wasser ist ein wichtiger Stoff.",
+              "exampleUk": "Вода — важлива речовина."
+            },
+            {
+              "de": "das Element",
+              "uk": "хімічний елемент",
+              "example": "Sauerstoff ist ein Element.",
+              "exampleUk": "Кисень — це хімічний елемент."
+            },
+            {
+              "de": "das Atom",
+              "uk": "атом",
+              "example": "Ein Atom ist sehr klein.",
+              "exampleUk": "Атом дуже малий."
+            },
+            {
+              "de": "das Molekül",
+              "uk": "молекула",
+              "example": "Ein Wassermolekül besteht aus drei Atomen.",
+              "exampleUk": "Молекула води складається з трьох атомів."
+            },
+            {
+              "de": "die Lösung",
+              "uk": "розчин",
+              "example": "Salz und Wasser bilden eine Lösung.",
+              "exampleUk": "Сіль і вода утворюють розчин."
+            },
+            {
+              "de": "fest",
+              "uk": "твердий",
+              "example": "Eis ist fest.",
+              "exampleUk": "Лід твердий."
+            },
+            {
+              "de": "flüssig",
+              "uk": "рідкий",
+              "example": "Wasser ist flüssig.",
+              "exampleUk": "Вода рідка."
+            },
+            {
+              "de": "gasförmig",
+              "uk": "газоподібний",
+              "example": "Wasserdampf ist gasförmig.",
+              "exampleUk": "Водяна пара газоподібна."
+            },
+            {
+              "de": "erhitzen",
+              "uk": "нагрівати",
+              "example": "Wir erhitzen das Wasser vorsichtig.",
+              "exampleUk": "Ми обережно нагріваємо воду."
+            },
+            {
+              "de": "abkühlen",
+              "uk": "охолоджувати",
+              "example": "Die Flüssigkeit muss abkühlen.",
+              "exampleUk": "Рідина повинна охолонути."
+            },
+            {
+              "de": "mischen",
+              "uk": "змішувати",
+              "example": "Mische beide Flüssigkeiten.",
+              "exampleUk": "Змішай обидві рідини."
+            },
+            {
+              "de": "die Reaktion",
+              "uk": "реакція",
+              "example": "Bei der Reaktion entsteht ein Gas.",
+              "exampleUk": "Під час реакції утворюється газ."
+            }
+          ]
+        },
+        {
+          "title": "Погода і довкілля",
+          "words": [
+            {
+              "de": "die Wettervorhersage",
+              "uk": "прогноз погоди",
+              "example": "Die Wettervorhersage kündigt Regen an.",
+              "exampleUk": "Прогноз погоди обіцяє дощ."
+            },
+            {
+              "de": "bewölkt",
+              "uk": "хмарно",
+              "example": "Heute ist es stark bewölkt.",
+              "exampleUk": "Сьогодні дуже хмарно."
+            },
+            {
+              "de": "der Niederschlag",
+              "uk": "опади",
+              "example": "Am Abend gibt es Niederschlag.",
+              "exampleUk": "Увечері будуть опади."
+            },
+            {
+              "de": "das Gewitter",
+              "uk": "гроза",
+              "example": "Das Gewitter kommt näher.",
+              "exampleUk": "Гроза наближається."
+            },
+            {
+              "de": "die Umwelt",
+              "uk": "довкілля",
+              "example": "Wir müssen die Umwelt schützen.",
+              "exampleUk": "Ми повинні захищати довкілля."
+            },
+            {
+              "de": "der Müll",
+              "uk": "сміття",
+              "example": "Bitte wirf den Müll in den Eimer.",
+              "exampleUk": "Будь ласка, викинь сміття у відро."
+            },
+            {
+              "de": "trennen",
+              "uk": "сортувати, розділяти",
+              "example": "Wir trennen Papier, Glas und Plastik.",
+              "exampleUk": "Ми сортуємо папір, скло та пластик."
+            },
+            {
+              "de": "recyceln",
+              "uk": "переробляти",
+              "example": "Viele Verpackungen können recycelt werden.",
+              "exampleUk": "Багато упаковок можна переробляти."
+            },
+            {
+              "de": "verschwenden",
+              "uk": "марнувати",
+              "example": "Wir sollten kein Wasser verschwenden.",
+              "exampleUk": "Нам не слід марнувати воду."
+            },
+            {
+              "de": "der Klimawandel",
+              "uk": "зміна клімату",
+              "example": "Der Klimawandel betrifft alle Länder.",
+              "exampleUk": "Зміна клімату стосується всіх країн."
+            },
+            {
+              "de": "erneuerbar",
+              "uk": "відновлюваний",
+              "example": "Wind ist eine erneuerbare Energiequelle.",
+              "exampleUk": "Вітер — відновлюване джерело енергії."
+            },
+            {
+              "de": "die Verschmutzung",
+              "uk": "забруднення",
+              "example": "Die Verschmutzung der Meere ist ein großes Problem.",
+              "exampleUk": "Забруднення морів — велика проблема."
+            }
+          ]
+        },
+        {
+          "title": "Подорож і транспорт",
+          "words": [
+            {
+              "de": "die Abfahrt",
+              "uk": "відправлення",
+              "example": "Die Abfahrt ist um acht Uhr.",
+              "exampleUk": "Відправлення о восьмій годині."
+            },
+            {
+              "de": "die Ankunft",
+              "uk": "прибуття",
+              "example": "Die Ankunft verzögert sich.",
+              "exampleUk": "Прибуття затримується."
+            },
+            {
+              "de": "umsteigen",
+              "uk": "робити пересадку",
+              "example": "In Köln müssen wir umsteigen.",
+              "exampleUk": "У Кельні ми повинні зробити пересадку."
+            },
+            {
+              "de": "die Verspätung",
+              "uk": "запізнення",
+              "example": "Der Zug hat zwanzig Minuten Verspätung.",
+              "exampleUk": "Поїзд запізнюється на двадцять хвилин."
+            },
+            {
+              "de": "das Gleis",
+              "uk": "колія, платформа",
+              "example": "Der Zug fährt von Gleis fünf ab.",
+              "exampleUk": "Поїзд відправляється з п’ятої колії."
+            },
+            {
+              "de": "die Fahrkarte",
+              "uk": "квиток",
+              "example": "Ich kaufe eine Fahrkarte am Automaten.",
+              "exampleUk": "Я купую квиток в автоматі."
+            },
+            {
+              "de": "gültig",
+              "uk": "дійсний",
+              "example": "Die Fahrkarte ist den ganzen Tag gültig.",
+              "exampleUk": "Квиток дійсний увесь день."
+            },
+            {
+              "de": "die Haltestelle",
+              "uk": "зупинка",
+              "example": "Wir steigen an der nächsten Haltestelle aus.",
+              "exampleUk": "Ми виходимо на наступній зупинці."
+            },
+            {
+              "de": "aussteigen",
+              "uk": "виходити з транспорту",
+              "example": "Bitte hinten aussteigen.",
+              "exampleUk": "Будь ласка, виходьте через задні двері."
+            },
+            {
+              "de": "einsteigen",
+              "uk": "сідати у транспорт",
+              "example": "Die Fahrgäste steigen ein.",
+              "exampleUk": "Пасажири сідають."
+            },
+            {
+              "de": "der Fahrplan",
+              "uk": "розклад руху",
+              "example": "Ich prüfe den Fahrplan online.",
+              "exampleUk": "Я перевіряю розклад онлайн."
+            },
+            {
+              "de": "die Unterkunft",
+              "uk": "житло на час подорожі",
+              "example": "Unsere Unterkunft liegt im Stadtzentrum.",
+              "exampleUk": "Наше житло розташоване в центрі міста."
             }
           ]
         }
@@ -285,37 +1742,387 @@
       "description": "Фрази для школи, друзів і щоденного життя",
       "lessons": [
         {
-          "title": "З однокласниками",
+          "title": "Друзі та вільний час",
           "words": [
             {
-              "de": "Hast du Lust mitzukommen?",
-              "uk": "Хочеш піти разом?",
-              "example": "Hast du Lust, nach der Schule mitzukommen?",
-              "exampleUk": "Хочеш піти разом після школи?"
+              "de": "sich verabreden",
+              "uk": "домовлятися про зустріч",
+              "example": "Wir verabreden uns für Samstag.",
+              "exampleUk": "Ми домовляємося зустрітися в суботу."
             },
             {
-              "de": "Wie meinst du das?",
-              "uk": "Що ти маєш на увазі?",
-              "example": "Wie meinst du das genau?",
-              "exampleUk": "Що саме ти маєш на увазі?"
+              "de": "Lust haben",
+              "uk": "мати бажання",
+              "example": "Hast du Lust, Fußball zu spielen?",
+              "exampleUk": "Хочеш пограти у футбол?"
             },
             {
-              "de": "Kein Problem.",
-              "uk": "Без проблем.",
-              "example": "Kein Problem, ich helfe dir.",
-              "exampleUk": "Без проблем, я тобі допоможу."
+              "de": "mitkommen",
+              "uk": "йти разом",
+              "example": "Möchtest du mitkommen?",
+              "exampleUk": "Хочеш піти разом?"
             },
             {
-              "de": "Das ist mir peinlich.",
-              "uk": "Мені ніяково.",
-              "example": "Das ist mir ein bisschen peinlich.",
-              "exampleUk": "Мені трохи ніяково."
+              "de": "absagen",
+              "uk": "скасовувати",
+              "example": "Ich muss unser Treffen leider absagen.",
+              "exampleUk": "На жаль, я мушу скасувати нашу зустріч."
             },
             {
-              "de": "Ich bin damit einverstanden.",
-              "uk": "Я з цим згоден.",
-              "example": "Ich bin mit dem Vorschlag einverstanden.",
-              "exampleUk": "Я згоден із пропозицією."
+              "de": "sich langweilen",
+              "uk": "нудьгувати",
+              "example": "Ich langweile mich heute.",
+              "exampleUk": "Мені сьогодні нудно."
+            },
+            {
+              "de": "spannend",
+              "uk": "захопливий",
+              "example": "Der Film war wirklich spannend.",
+              "exampleUk": "Фільм був справді захопливим."
+            },
+            {
+              "de": "peinlich",
+              "uk": "незручно, соромно",
+              "example": "Die Situation war mir peinlich.",
+              "exampleUk": "Мені було ніяково через цю ситуацію."
+            },
+            {
+              "de": "gemeinsam",
+              "uk": "разом, спільно",
+              "example": "Wir lernen gemeinsam für die Prüfung.",
+              "exampleUk": "Ми разом готуємося до контрольної."
+            },
+            {
+              "de": "sich streiten",
+              "uk": "сваритися",
+              "example": "Geschwister streiten sich manchmal.",
+              "exampleUk": "Брати й сестри інколи сваряться."
+            },
+            {
+              "de": "sich vertragen",
+              "uk": "миритися, ладнати",
+              "example": "Nach dem Streit haben wir uns wieder vertragen.",
+              "exampleUk": "Після сварки ми знову помирилися."
+            },
+            {
+              "de": "ehrlich",
+              "uk": "чесний",
+              "example": "Sei bitte ehrlich zu mir.",
+              "exampleUk": "Будь зі мною чесним."
+            },
+            {
+              "de": "das Vertrauen",
+              "uk": "довіра",
+              "example": "Vertrauen ist in einer Freundschaft wichtig.",
+              "exampleUk": "Довіра важлива у дружбі."
+            }
+          ]
+        },
+        {
+          "title": "У магазині та кафе",
+          "words": [
+            {
+              "de": "bestellen",
+              "uk": "замовляти",
+              "example": "Ich möchte eine Pizza bestellen.",
+              "exampleUk": "Я хочу замовити піцу."
+            },
+            {
+              "de": "die Rechnung",
+              "uk": "рахунок",
+              "example": "Können wir bitte die Rechnung bekommen?",
+              "exampleUk": "Можна нам, будь ласка, рахунок?"
+            },
+            {
+              "de": "bezahlen",
+              "uk": "платити",
+              "example": "Kann ich mit Karte bezahlen?",
+              "exampleUk": "Можна заплатити карткою?"
+            },
+            {
+              "de": "das Wechselgeld",
+              "uk": "решта",
+              "example": "Stimmt das Wechselgeld?",
+              "exampleUk": "Чи правильна решта?"
+            },
+            {
+              "de": "anprobieren",
+              "uk": "приміряти",
+              "example": "Kann ich die Jacke anprobieren?",
+              "exampleUk": "Можна приміряти цю куртку?"
+            },
+            {
+              "de": "passen",
+              "uk": "підходити за розміром",
+              "example": "Die Hose passt mir gut.",
+              "exampleUk": "Штани мені добре підходять."
+            },
+            {
+              "de": "umtauschen",
+              "uk": "обмінювати товар",
+              "example": "Ich möchte dieses T-Shirt umtauschen.",
+              "exampleUk": "Я хочу обміняти цю футболку."
+            },
+            {
+              "de": "ausverkauft",
+              "uk": "розпродано",
+              "example": "Diese Größe ist leider ausverkauft.",
+              "exampleUk": "Цей розмір, на жаль, розпроданий."
+            },
+            {
+              "de": "günstig",
+              "uk": "вигідний, недорогий",
+              "example": "Das Angebot ist wirklich günstig.",
+              "exampleUk": "Ця пропозиція справді вигідна."
+            },
+            {
+              "de": "teuer",
+              "uk": "дорогий",
+              "example": "Die Schuhe sind mir zu teuer.",
+              "exampleUk": "Ці черевики для мене надто дорогі."
+            },
+            {
+              "de": "die Quittung",
+              "uk": "чек",
+              "example": "Brauchen Sie die Quittung?",
+              "exampleUk": "Вам потрібен чек?"
+            },
+            {
+              "de": "empfehlen",
+              "uk": "рекомендувати",
+              "example": "Was können Sie empfehlen?",
+              "exampleUk": "Що ви можете порекомендувати?"
+            }
+          ]
+        },
+        {
+          "title": "Почуття та думки",
+          "words": [
+            {
+              "de": "zufrieden",
+              "uk": "задоволений",
+              "example": "Ich bin mit dem Ergebnis zufrieden.",
+              "exampleUk": "Я задоволений результатом."
+            },
+            {
+              "de": "enttäuscht",
+              "uk": "розчарований",
+              "example": "Er ist über die Note enttäuscht.",
+              "exampleUk": "Він розчарований оцінкою."
+            },
+            {
+              "de": "überrascht",
+              "uk": "здивований",
+              "example": "Ich war von der Nachricht überrascht.",
+              "exampleUk": "Я був здивований новиною."
+            },
+            {
+              "de": "nervös",
+              "uk": "нервовий",
+              "example": "Vor der Prüfung bin ich nervös.",
+              "exampleUk": "Перед контрольною я нервую."
+            },
+            {
+              "de": "stolz",
+              "uk": "гордий",
+              "example": "Meine Eltern sind stolz auf mich.",
+              "exampleUk": "Мої батьки пишаються мною."
+            },
+            {
+              "de": "sich freuen auf",
+              "uk": "радіти майбутньому",
+              "example": "Ich freue mich auf die Ferien.",
+              "exampleUk": "Я радію майбутнім канікулам."
+            },
+            {
+              "de": "sich ärgern über",
+              "uk": "сердитися через",
+              "example": "Ich ärgere mich über den Lärm.",
+              "exampleUk": "Я серджуся через шум."
+            },
+            {
+              "de": "meiner Meinung nach",
+              "uk": "на мою думку",
+              "example": "Meiner Meinung nach ist das unfair.",
+              "exampleUk": "На мою думку, це несправедливо."
+            },
+            {
+              "de": "zustimmen",
+              "uk": "погоджуватися",
+              "example": "Ich stimme dir völlig zu.",
+              "exampleUk": "Я повністю з тобою погоджуюся."
+            },
+            {
+              "de": "widersprechen",
+              "uk": "заперечувати",
+              "example": "Da muss ich dir widersprechen.",
+              "exampleUk": "Тут я мушу тобі заперечити."
+            },
+            {
+              "de": "begründen",
+              "uk": "обґрунтовувати",
+              "example": "Begründe bitte deine Meinung.",
+              "exampleUk": "Будь ласка, обґрунтуй свою думку."
+            },
+            {
+              "de": "vermutlich",
+              "uk": "ймовірно",
+              "example": "Vermutlich kommt er später.",
+              "exampleUk": "Ймовірно, він прийде пізніше."
+            }
+          ]
+        },
+        {
+          "title": "Здоров’я і самопочуття",
+          "words": [
+            {
+              "de": "die Kopfschmerzen",
+              "uk": "головний біль",
+              "example": "Ich habe starke Kopfschmerzen.",
+              "exampleUk": "У мене сильний головний біль."
+            },
+            {
+              "de": "der Husten",
+              "uk": "кашель",
+              "example": "Der Husten ist nachts schlimmer.",
+              "exampleUk": "Уночі кашель сильніший."
+            },
+            {
+              "de": "das Fieber",
+              "uk": "температура, гарячка",
+              "example": "Das Kind hat hohes Fieber.",
+              "exampleUk": "У дитини висока температура."
+            },
+            {
+              "de": "sich verletzen",
+              "uk": "травмуватися",
+              "example": "Ich habe mich beim Sport verletzt.",
+              "exampleUk": "Я травмувався під час спорту."
+            },
+            {
+              "de": "die Wunde",
+              "uk": "рана",
+              "example": "Die Wunde muss gereinigt werden.",
+              "exampleUk": "Рану треба очистити."
+            },
+            {
+              "de": "die Salbe",
+              "uk": "мазь",
+              "example": "Tragen Sie die Salbe zweimal täglich auf.",
+              "exampleUk": "Наносьте мазь двічі на день."
+            },
+            {
+              "de": "das Rezept",
+              "uk": "рецепт",
+              "example": "Der Arzt stellt ein Rezept aus.",
+              "exampleUk": "Лікар виписує рецепт."
+            },
+            {
+              "de": "sich ausruhen",
+              "uk": "відпочивати",
+              "example": "Du solltest dich heute ausruhen.",
+              "exampleUk": "Тобі варто сьогодні відпочити."
+            },
+            {
+              "de": "gesund werden",
+              "uk": "одужувати",
+              "example": "Ich hoffe, du wirst schnell gesund.",
+              "exampleUk": "Сподіваюся, ти швидко одужаєш."
+            },
+            {
+              "de": "die Allergie",
+              "uk": "алергія",
+              "example": "Ich habe eine Allergie gegen Nüsse.",
+              "exampleUk": "У мене алергія на горіхи."
+            },
+            {
+              "de": "die Versicherungskarte",
+              "uk": "страхова картка",
+              "example": "Bitte bringen Sie Ihre Versicherungskarte mit.",
+              "exampleUk": "Будь ласка, принесіть страхову картку."
+            },
+            {
+              "de": "der Termin",
+              "uk": "запис, прийом",
+              "example": "Ich brauche einen Termin beim Arzt.",
+              "exampleUk": "Мені потрібен запис до лікаря."
+            }
+          ]
+        },
+        {
+          "title": "Телефон і повідомлення",
+          "words": [
+            {
+              "de": "anrufen",
+              "uk": "телефонувати",
+              "example": "Ich rufe dich später an.",
+              "exampleUk": "Я зателефоную тобі пізніше."
+            },
+            {
+              "de": "zurückrufen",
+              "uk": "передзвонювати",
+              "example": "Kannst du mich bitte zurückrufen?",
+              "exampleUk": "Можеш мені передзвонити?"
+            },
+            {
+              "de": "erreichbar",
+              "uk": "доступний для зв’язку",
+              "example": "Ich bin heute Abend erreichbar.",
+              "exampleUk": "Сьогодні ввечері я буду на зв’язку."
+            },
+            {
+              "de": "die Nachricht",
+              "uk": "повідомлення",
+              "example": "Ich habe dir eine Nachricht geschickt.",
+              "exampleUk": "Я надіслав тобі повідомлення."
+            },
+            {
+              "de": "antworten",
+              "uk": "відповідати",
+              "example": "Warum antwortest du nicht?",
+              "exampleUk": "Чому ти не відповідаєш?"
+            },
+            {
+              "de": "weiterleiten",
+              "uk": "пересилати",
+              "example": "Bitte leite mir die E-Mail weiter.",
+              "exampleUk": "Будь ласка, перешли мені електронного листа."
+            },
+            {
+              "de": "der Anhang",
+              "uk": "вкладення",
+              "example": "Die Datei ist im Anhang.",
+              "exampleUk": "Файл у вкладенні."
+            },
+            {
+              "de": "die Verbindung",
+              "uk": "зв’язок",
+              "example": "Die Verbindung ist sehr schlecht.",
+              "exampleUk": "Зв’язок дуже поганий."
+            },
+            {
+              "de": "stumm schalten",
+              "uk": "вимикати звук",
+              "example": "Schalte bitte dein Mikrofon stumm.",
+              "exampleUk": "Будь ласка, вимкни мікрофон."
+            },
+            {
+              "de": "die Sprachnachricht",
+              "uk": "голосове повідомлення",
+              "example": "Ich höre deine Sprachnachricht später an.",
+              "exampleUk": "Я прослухаю твоє голосове повідомлення пізніше."
+            },
+            {
+              "de": "tippen",
+              "uk": "друкувати",
+              "example": "Ich tippe gerade eine Antwort.",
+              "exampleUk": "Я зараз друкую відповідь."
+            },
+            {
+              "de": "löschen",
+              "uk": "видаляти",
+              "example": "Ich habe die Nachricht aus Versehen gelöscht.",
+              "exampleUk": "Я випадково видалив повідомлення."
             }
           ]
         }
