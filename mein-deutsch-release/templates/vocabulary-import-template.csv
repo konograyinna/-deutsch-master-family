@@ -1,0 +1,2 @@
+id,profileId,courseId,lessonId,lessonTitle,de,uk,level,type,exampleDe,exampleUk,tags
+inna-rad-ct-0001,inna,inna-radiology,inna-radiology-new-1,КТ: новий модуль,die Kontrastmittelgabe,введення контрастної речовини,B2,noun,Vor der Kontrastmittelgabe wird die Nierenfunktion überprüft.,Перед введенням контрастної речовини перевіряють функцію нирок.,Radiologie|CT|Patientensicherheit

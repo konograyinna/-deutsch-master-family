@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "contentVersion": "1.0.0",
+  "appTitle": "Mein Deutsch",
+  "tagline": "Lernen. Verstehen. Sprechen.",
+  "profiles": [
+    {
+      "id": "inna",
+      "name": "Інна",
+      "greetingName": "Інно",
+      "emoji": "👩",
+      "subtitle": "B2 · Радіологія · професійна комунікація",
+      "courses": [
+        "inna-radiology",
+        "inna-work",
+        "inna-formal",
+        "inna-extra",
+        "inna-professional-plus",
+        "inna-situations-plus"
+      ]
+    },
+    {
+      "id": "roma",
+      "name": "Рома",
+      "greetingName": "Ромо",
+      "emoji": "👨",
+      "subtitle": "B1–B2 · Ausbildung · робота · Führerschein",
+      "courses": [
+        "roma-career",
+        "roma-driving",
+        "roma-life",
+        "roma-extra",
+        "roma-germany-plus",
+        "roma-situations-plus"
+      ]
+    },
+    {
+      "id": "nazar",
+      "name": "Назар",
+      "greetingName": "Назаре",
+      "emoji": "🧑",
+      "subtitle": "7–9 клас · предметна мова · письмові роботи",
+      "courses": [
+        "nazar-school",
+        "nazar-writing",
+        "nazar-youth",
+        "nazar-extra",
+        "nazar-school-plus",
+        "nazar-situations-plus"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "inna-radiology",
+      "profileId": "inna",
+      "path": "content/inna/inna-radiology.json",
+      "version": "1.0.0",
+      "count": 970
+    },
+    {
+      "id": "inna-work",
+      "profileId": "inna",
+      "path": "content/inna/inna-work.json",
+      "version": "1.0.0",
+      "count": 348
+    },
+    {
+      "id": "inna-formal",
+      "profileId": "inna",
+      "path": "content/inna/inna-formal.json",
+      "version": "1.0.0",
+      "count": 40
+    },
+    {
+      "id": "inna-extra",
+      "profileId": "inna",
+      "path": "content/inna/inna-extra.json",
+      "version": "1.0.0",
+      "count": 700
+    },
+    {
+      "id": "roma-career",
+      "profileId": "roma",
+      "path": "content/roma/roma-career.json",
+      "version": "1.0.0",
+      "count": 284
+    },
+    {
+      "id": "roma-driving",
+      "profileId": "roma",
+      "path": "content/roma/roma-driving.json",
+      "version": "1.0.0",
+      "count": 424
+    },
+    {
+      "id": "roma-life",
+      "profileId": "roma",
+      "path": "content/roma/roma-life.json",
+      "version": "1.0.0",
+      "count": 320
+    },
+    {
+      "id": "roma-extra",
+      "profileId": "roma",
+      "path": "content/roma/roma-extra.json",
+      "version": "1.0.0",
+      "count": 1100
+    },
+    {
+      "id": "nazar-school",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-school.json",
+      "version": "1.0.0",
+      "count": 1048
+    },
+    {
+      "id": "nazar-writing",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-writing.json",
+      "version": "1.0.0",
+      "count": 732
+    },
+    {
+      "id": "nazar-youth",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-youth.json",
+      "version": "1.0.0",
+      "count": 94
+    },
+    {
+      "id": "nazar-extra",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-extra.json",
+      "version": "1.0.0",
+      "count": 500
+    },
+    {
+      "id": "inna-professional-plus",
+      "profileId": "inna",
+      "path": "content/inna/inna-professional-plus.json",
+      "version": "1.0.0",
+      "count": 1536
+    },
+    {
+      "id": "roma-germany-plus",
+      "profileId": "roma",
+      "path": "content/roma/roma-germany-plus.json",
+      "version": "1.0.0",
+      "count": 1536
+    },
+    {
+      "id": "nazar-school-plus",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-school-plus.json",
+      "version": "1.0.0",
+      "count": 1536
+    },
+    {
+      "id": "inna-situations-plus",
+      "profileId": "inna",
+      "path": "content/inna/inna-situations-plus.json",
+      "version": "1.0.0",
+      "count": 1656
+    },
+    {
+      "id": "roma-situations-plus",
+      "profileId": "roma",
+      "path": "content/roma/roma-situations-plus.json",
+      "version": "1.0.0",
+      "count": 1586
+    },
+    {
+      "id": "nazar-situations-plus",
+      "profileId": "nazar",
+      "path": "content/nazar/nazar-situations-plus.json",
+      "version": "1.0.0",
+      "count": 1340
+    }
+  ],
+  "releaseChannel": "stable",
+  "minimumAppVersion": "1.0.0"
+}

@@ -1,0 +1,16 @@
+{
+  "name":"Mein Deutsch — сімейний курс",
+  "short_name":"Mein Deutsch",
+  "description":"Офлайн-застосунок німецької для Інни, Роми та Назара.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait-primary",
+  "background_color":"#eef2ea",
+  "theme_color":"#436b5a",
+  "lang":"uk",
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
