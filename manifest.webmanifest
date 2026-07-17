@@ -1,0 +1,9 @@
+{
+  "name": "Deutsch Master Family",
+  "short_name": "Deutsch Master",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#3157d5",
+  "description": "Сімейний застосунок для вивчення німецької"
+}

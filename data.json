@@ -1,0 +1,325 @@
+{
+  "profiles": [
+    {
+      "id": "mama",
+      "name": "Мама",
+      "emoji": "👩",
+      "subtitle": "B1–B2 · Радіологія · Ausbildung · Führerschein",
+      "courses": [
+        "radiology",
+        "general",
+        "driving"
+      ]
+    },
+    {
+      "id": "older",
+      "name": "Старший син",
+      "emoji": "👦",
+      "subtitle": "B1–B2 · Навчання · Словниковий запас · Führerschein",
+      "courses": [
+        "general",
+        "study",
+        "driving"
+      ]
+    },
+    {
+      "id": "younger",
+      "name": "Молодший син",
+      "emoji": "🧒",
+      "subtitle": "7 клас · Школа · Спілкування",
+      "courses": [
+        "school",
+        "communication"
+      ]
+    }
+  ],
+  "courses": {
+    "radiology": {
+      "emoji": "🏥",
+      "title": "Радіологія",
+      "description": "КТ, МРТ, рентген і спілкування з пацієнтами",
+      "lessons": [
+        {
+          "title": "Підготовка пацієнта",
+          "words": [
+            {
+              "de": "die Untersuchung",
+              "uk": "обстеження",
+              "example": "Die Untersuchung dauert etwa zwanzig Minuten.",
+              "exampleUk": "Обстеження триває приблизно двадцять хвилин."
+            },
+            {
+              "de": "das Kontrastmittel",
+              "uk": "контрастна речовина",
+              "example": "Sie erhalten vor der CT ein Kontrastmittel.",
+              "exampleUk": "Перед КТ ви отримаєте контрастну речовину."
+            },
+            {
+              "de": "nüchtern",
+              "uk": "натщесерце",
+              "example": "Bitte kommen Sie nüchtern zur Untersuchung.",
+              "exampleUk": "Будь ласка, прийдіть на обстеження натщесерце."
+            },
+            {
+              "de": "sich nicht bewegen",
+              "uk": "не рухатися",
+              "example": "Bitte bewegen Sie sich während der Aufnahme nicht.",
+              "exampleUk": "Будь ласка, не рухайтеся під час знімка."
+            },
+            {
+              "de": "tief einatmen",
+              "uk": "глибоко вдихнути",
+              "example": "Atmen Sie bitte tief ein.",
+              "exampleUk": "Будь ласка, глибоко вдихніть."
+            }
+          ]
+        },
+        {
+          "title": "МРТ — безпека",
+          "words": [
+            {
+              "de": "der Herzschrittmacher",
+              "uk": "кардіостимулятор",
+              "example": "Haben Sie einen Herzschrittmacher?",
+              "exampleUk": "У вас є кардіостимулятор?"
+            },
+            {
+              "de": "das Implantat",
+              "uk": "імплант",
+              "example": "Haben Sie ein Implantat im Körper?",
+              "exampleUk": "У вас є імплант у тілі?"
+            },
+            {
+              "de": "die Platzangst",
+              "uk": "клаустрофобія",
+              "example": "Leiden Sie unter Platzangst?",
+              "exampleUk": "Ви страждаєте на клаустрофобію?"
+            },
+            {
+              "de": "der Metallgegenstand",
+              "uk": "металевий предмет",
+              "example": "Bitte legen Sie alle Metallgegenstände ab.",
+              "exampleUk": "Будь ласка, зніміть усі металеві предмети."
+            },
+            {
+              "de": "die Magnetresonanztomografie",
+              "uk": "магнітно-резонансна томографія",
+              "example": "Die MRT arbeitet ohne Röntgenstrahlung.",
+              "exampleUk": "МРТ працює без рентгенівського випромінювання."
+            }
+          ]
+        }
+      ]
+    },
+    "general": {
+      "emoji": "📘",
+      "title": "Загальна німецька B1–B2",
+      "description": "Активний словниковий запас для життя, навчання і роботи",
+      "lessons": [
+        {
+          "title": "Навчання і робота",
+          "words": [
+            {
+              "de": "die Bewerbung",
+              "uk": "заява на роботу або навчання",
+              "example": "Ich schreibe eine Bewerbung.",
+              "exampleUk": "Я пишу заяву."
+            },
+            {
+              "de": "zuverlässig",
+              "uk": "надійний",
+              "example": "Sie ist zuverlässig und pünktlich.",
+              "exampleUk": "Вона надійна й пунктуальна."
+            },
+            {
+              "de": "die Fähigkeit",
+              "uk": "здатність, навичка",
+              "example": "Teamarbeit ist eine wichtige Fähigkeit.",
+              "exampleUk": "Робота в команді — важлива навичка."
+            },
+            {
+              "de": "sich bewerben um",
+              "uk": "подаватися на",
+              "example": "Er bewirbt sich um einen Studienplatz.",
+              "exampleUk": "Він подається на місце навчання."
+            },
+            {
+              "de": "die Weiterbildung",
+              "uk": "підвищення кваліфікації",
+              "example": "Ich möchte eine Weiterbildung machen.",
+              "exampleUk": "Я хочу пройти підвищення кваліфікації."
+            }
+          ]
+        }
+      ]
+    },
+    "driving": {
+      "emoji": "🚗",
+      "title": "Водійські права",
+      "description": "Правила, дорожні знаки і мова іспиту",
+      "lessons": [
+        {
+          "title": "Основні поняття",
+          "words": [
+            {
+              "de": "die Vorfahrt",
+              "uk": "переважне право проїзду",
+              "example": "Hier gilt rechts vor links.",
+              "exampleUk": "Тут діє правило «праворуч перед ліворуч»."
+            },
+            {
+              "de": "der Sicherheitsabstand",
+              "uk": "безпечна дистанція",
+              "example": "Halten Sie genügend Sicherheitsabstand.",
+              "exampleUk": "Тримайте достатню безпечну дистанцію."
+            },
+            {
+              "de": "die Geschwindigkeitsbegrenzung",
+              "uk": "обмеження швидкості",
+              "example": "Hier gilt Tempo 30.",
+              "exampleUk": "Тут діє обмеження 30 км/год."
+            },
+            {
+              "de": "überholen",
+              "uk": "обганяти",
+              "example": "Sie dürfen hier nicht überholen.",
+              "exampleUk": "Тут не можна обганяти."
+            },
+            {
+              "de": "bremsbereit",
+              "uk": "готовий загальмувати",
+              "example": "Bleiben Sie bremsbereit.",
+              "exampleUk": "Будьте готові загальмувати."
+            }
+          ]
+        }
+      ]
+    },
+    "study": {
+      "emoji": "🎓",
+      "title": "Навчання та професія",
+      "description": "Лексика для B2, Studium і Ausbildung",
+      "lessons": [
+        {
+          "title": "Навчання",
+          "words": [
+            {
+              "de": "die Zulassung",
+              "uk": "зарахування, допуск",
+              "example": "Für das Studium braucht man eine Zulassung.",
+              "exampleUk": "Для навчання потрібне зарахування."
+            },
+            {
+              "de": "die Vorlesung",
+              "uk": "лекція",
+              "example": "Die Vorlesung beginnt um neun Uhr.",
+              "exampleUk": "Лекція починається о дев’ятій."
+            },
+            {
+              "de": "die Prüfung ablegen",
+              "uk": "складати іспит",
+              "example": "Ich lege die B2-Prüfung ab.",
+              "exampleUk": "Я складаю іспит B2."
+            },
+            {
+              "de": "die Frist",
+              "uk": "термін",
+              "example": "Die Bewerbungsfrist endet nächste Woche.",
+              "exampleUk": "Термін подання заяв закінчується наступного тижня."
+            },
+            {
+              "de": "die Vorkenntnisse",
+              "uk": "попередні знання",
+              "example": "Gute Vorkenntnisse sind erforderlich.",
+              "exampleUk": "Потрібні хороші попередні знання."
+            }
+          ]
+        }
+      ]
+    },
+    "school": {
+      "emoji": "🏫",
+      "title": "Німецька для 7 класу",
+      "description": "Шкільні предмети, завдання і фрази для уроку",
+      "lessons": [
+        {
+          "title": "На уроці",
+          "words": [
+            {
+              "de": "die Aufgabe",
+              "uk": "завдання",
+              "example": "Ich habe die Aufgabe nicht verstanden.",
+              "exampleUk": "Я не зрозумів завдання."
+            },
+            {
+              "de": "erklären",
+              "uk": "пояснювати",
+              "example": "Können Sie das bitte erklären?",
+              "exampleUk": "Можете, будь ласка, це пояснити?"
+            },
+            {
+              "de": "sich melden",
+              "uk": "піднімати руку",
+              "example": "Melde dich, wenn du die Antwort weißt.",
+              "exampleUk": "Підніми руку, якщо знаєш відповідь."
+            },
+            {
+              "de": "die Hausaufgabe",
+              "uk": "домашнє завдання",
+              "example": "Wir machen die Hausaufgabe bis morgen.",
+              "exampleUk": "Ми робимо домашнє завдання до завтра."
+            },
+            {
+              "de": "abgeben",
+              "uk": "здавати",
+              "example": "Bitte gebt eure Hefte ab.",
+              "exampleUk": "Будь ласка, здайте зошити."
+            }
+          ]
+        }
+      ]
+    },
+    "communication": {
+      "emoji": "💬",
+      "title": "Спілкування",
+      "description": "Фрази для школи, друзів і щоденного життя",
+      "lessons": [
+        {
+          "title": "З однокласниками",
+          "words": [
+            {
+              "de": "Hast du Lust mitzukommen?",
+              "uk": "Хочеш піти разом?",
+              "example": "Hast du Lust, nach der Schule mitzukommen?",
+              "exampleUk": "Хочеш піти разом після школи?"
+            },
+            {
+              "de": "Wie meinst du das?",
+              "uk": "Що ти маєш на увазі?",
+              "example": "Wie meinst du das genau?",
+              "exampleUk": "Що саме ти маєш на увазі?"
+            },
+            {
+              "de": "Kein Problem.",
+              "uk": "Без проблем.",
+              "example": "Kein Problem, ich helfe dir.",
+              "exampleUk": "Без проблем, я тобі допоможу."
+            },
+            {
+              "de": "Das ist mir peinlich.",
+              "uk": "Мені ніяково.",
+              "example": "Das ist mir ein bisschen peinlich.",
+              "exampleUk": "Мені трохи ніяково."
+            },
+            {
+              "de": "Ich bin damit einverstanden.",
+              "uk": "Я з цим згоден.",
+              "example": "Ich bin mit dem Vorschlag einverstanden.",
+              "exampleUk": "Я згоден із пропозицією."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
