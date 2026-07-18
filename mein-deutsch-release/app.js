@@ -10,14 +10,48 @@ function key(cid,lid){return`${state.profile}:${cid}:${lid}`}
 function done(cid,lid){return!!prog()[key(cid,lid)]}
 function allWords(){return P().courses.flatMap(cid=>(C(cid)?.lessons||[]).flatMap(l=>l.words.map(w=>({...w,cid,lid:l.id}))))}
 function stats(){let total=0,lessons=0,finished=0;P().courses.forEach(cid=>(C(cid)?.lessons||[]).forEach(l=>{lessons++;total+=l.words.length;if(done(cid,l.id))finished++}));return{total,lessons,finished}}
+
+function localDay(d=new Date()){const x=new Date(d);return`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`}
+function progressEntries(){return Object.entries(prog()).filter(([k,v])=>k.startsWith(state.profile+':')&&v?.date)}
+function activitySummary(){
+  const days=[...new Set(progressEntries().map(([,v])=>localDay(v.date)))].sort();
+  const today=localDay(),yesterday=localDay(new Date(Date.now()-86400000));
+  let streak=0,cursor=days.includes(today)?new Date():days.includes(yesterday)?new Date(Date.now()-86400000):null;
+  while(cursor&&days.includes(localDay(cursor))){streak++;cursor=new Date(cursor.getTime()-86400000)}
+  const last=days.length?days.at(-1):null;
+  return{streak,last,todayDone:progressEntries().filter(([,v])=>localDay(v.date)===today).length}
+}
+function formatActivityDate(day){if(!day)return'ще немає';if(day===localDay())return'сьогодні';if(day===localDay(new Date(Date.now()-86400000)))return'учора';return new Date(day+'T12:00:00').toLocaleDateString('uk-UA',{day:'numeric',month:'short'})}
+const DAILY_PLANS={
+  inna:[
+    {icon:'🩺',title:'Медична німецька',detail:'Пройти наступний короткий урок',course:'inna-radiology'},
+    {icon:'🚗',title:'Führerschein',detail:'Вивчити дорожні слова й ситуації',course:'roma-driving'},
+    {icon:'🎓',title:'Підготовка до B2',detail:'Формальне спілкування та письмо',course:'inna-formal'}
+  ],
+  roma:[
+    {icon:'💼',title:'Робота й Ausbildung',detail:'Пройти наступний кар’єрний урок',course:'roma-career'},
+    {icon:'🚗',title:'Führerschein',detail:'Повторити дорожню лексику',course:'roma-driving'},
+    {icon:'🇩🇪',title:'Життя в Німеччині',detail:'Практична ситуація на щодень',course:'roma-life'}
+  ],
+  nazar:[
+    {icon:'📚',title:'Німецька для 7 класу',detail:'Наступний шкільний мікроурок',course:'nazar-school'},
+    {icon:'✍️',title:'Schreiben',detail:'Слова й фрази для письмової роботи',course:'nazar-writing'},
+    {icon:'🏫',title:'Шкільна ситуація',detail:'Практична мова після школи',course:'nazar-situations-plus'}
+  ]
+};
+function nextLesson(cid){const c=C(cid);return c?.lessons.find(l=>!done(cid,l.id))||c?.lessons[0]}
+function dailyPlan(){return(DAILY_PLANS[state.profile]||[]).map((t,i)=>{const l=nextLesson(t.course);return{...t,index:i,lesson:l,complete:l?done(t.course,l.id):false}})}
+function openDailyTask(i){const t=dailyPlan()[i];if(!t?.lesson)return;state.course=t.course;start(t.lesson.id)}
+function todayHtml(){const a=activitySummary(),tasks=dailyPlan(),complete=tasks.filter(t=>t.complete).length,minutes=tasks.reduce((n,t)=>n+(Number(t.lesson?.duration)||5),0);return`<section class="today-card"><div class="today-top"><div><div class="tagline">${state.profile==='nazar'?'📚 Після школи':'🎯 План на сьогодні'}</div><h2>${complete===tasks.length?'План виконано — чудова робота!':'Три маленькі кроки вперед'}</h2></div><div class="today-time">≈ ${minutes} хв</div></div><div class="today-progress"><i style="width:${Math.round(complete/tasks.length*100)||0}%"></i></div><div class="today-tasks">${tasks.map(t=>`<button class="today-task ${t.complete?'complete':''}" onclick="openDailyTask(${t.index})"><span class="task-icon">${t.complete?'✓':t.icon}</span><span><b>${t.title}</b><small>${t.complete?'Виконано сьогодні':t.detail}</small></span><span class="task-arrow">›</span></button>`).join('')}</div><div class="today-meta"><span>🔥 Серія: <b>${a.streak} ${a.streak===1?'день':'днів'}</b></span><span>📅 Останнє заняття: <b>${formatActivityDate(a.last)}</b></span><span>✅ Сьогодні: <b>${a.todayDone} уроків</b></span></div></section>`}
+
 function speak(t){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='de-DE';u.rate=.82;speechSynthesis.speak(u)}
 function nav(a){return`<nav class="bottom">${[['home','⌂','Головна'],['courses','▤','Курси'],['review','◫','Повторення'],['progress','◔','Прогрес']].map(x=>`<button class="navbtn ${a===x[0]?'active':''}" onclick="go('${x[0]}')"><b>${x[1]}</b>${x[2]}</button>`).join('')}</nav>`}
 function shell(html,a='home'){app.innerHTML=`<main class="app"><header class="top"><div class="brand">Mein <span>Deutsch</span></div><button class="iconbtn" onclick="settings()">⚙︎</button></header>${html}</main>${state.profile?nav(a):''}`}
 function profiles(){state.profile=null;shell(`<section class="hero"><div class="tagline">Lernen. Verstehen. Sprechen.</div><h1>Mein Deutsch</h1><p>Модульний сімейний курс німецької. Нові теми можна підключати без втрати прогресу.</p></section><div class="sectionhead"><h2>Хто навчається?</h2><span class="small">Версія ${DATA.version}</span></div><div class="grid">${DATA.profiles.map(p=>`<button class="card profile" onclick="choose('${p.id}')"><div class="emoji">${p.emoji}</div><h2>${p.name}</h2><div class="sub">${p.subtitle}</div></button>`).join('')}</div>`)}
 function choose(id){state.profile=id;store.set('md-last',id);home()}
-function courseGroupsHtml(){const groups=P().courseGroups||[{title:'Курси',icon:'📚',courses:P().courses}];return groups.map(g=>`<section class="course-group"><div class="sectionhead grouphead"><h2>${g.icon||'📚'} ${g.title}</h2><span class="small">${g.courses.length} курсів</span></div><div class="grid">${g.courses.map(courseCard).join('')}</div></section>`).join('')}
-function home(){const s=stats();shell(`<section class="hero"><div class="tagline">Willkommen zurück</div><h1>Привіт, ${P().greetingName}! ${P().emoji}</h1><p>Твій прогрес прив'язаний до стабільних ID і збережеться після додавання нових пакетів.</p></section><div class="stats"><div class="stat"><b>${s.total.toLocaleString('uk-UA')}</b>слів і фраз</div><div class="stat"><b>${s.lessons}</b>мікроуроків</div><div class="stat"><b>${s.finished}</b>завершено</div></div><div class="sectionhead"><h2>Твій навчальний шлях</h2><button class="btn ghost" onclick="profiles()">Змінити профіль</button></div>${courseGroupsHtml()}`,'home')}
-function courseCard(cid){const c=C(cid);if(!c)return'';const shared=['roma-driving','roma-life'].includes(cid);const d=c.lessons.filter(l=>done(cid,l.id)).length,pc=Math.round(d/c.lessons.length*100)||0,n=c.lessons.reduce((a,l)=>a+l.words.length,0);return`<article class="card course" onclick="openCourse('${cid}')"><div class="course-top"><div class="emoji">${c.icon}</div>${shared?'<span class="badge">Спільний</span>':''}</div><h3>${c.title}</h3><div class="sub">${c.description}</div><p class="metric">${c.lessons.length} уроків · ${n.toLocaleString('uk-UA')} карток</p><div class="progress"><i style="width:${pc}%"></i></div></article>`}
+function home(){const s=stats();shell(`<section class="hero compact-hero"><div class="tagline">Willkommen zurück</div><h1>Привіт, ${P().greetingName}! ${P().emoji}</h1><p>${state.profile==='nazar'?'Після школи достатньо кількох коротких завдань.':'Сьогодні достатньо кількох коротких кроків, щоб рухатися вперед.'}</p></section>${todayHtml()}<div class="stats"><div class="stat"><b>${s.total.toLocaleString('uk-UA')}</b>слів і фраз</div><div class="stat"><b>${s.lessons}</b>мікроуроків</div><div class="stat"><b>${s.finished}</b>завершено</div></div><div class="sectionhead"><h2>Твій навчальний шлях</h2><button class="btn ghost" onclick="profiles()">Змінити профіль</button></div>${courseGroupsHtml()}`,'home')}
+function courseGroupsHtml(){const groups=P().courseGroups||[{title:'Курси',courses:P().courses}];return groups.map(g=>`<section class="course-group"><div class="sectionhead"><h2>${g.title}</h2></div><div class="grid">${g.courses.map(courseCard).join('')}</div></section>`).join('')}
+function courseCard(cid){const c=C(cid);if(!c)return'';const d=c.lessons.filter(l=>done(cid,l.id)).length,pc=Math.round(d/c.lessons.length*100)||0,n=c.lessons.reduce((a,l)=>a+l.words.length,0);return`<article class="card course" onclick="openCourse('${cid}')"><div class="emoji">${c.icon}</div><h3>${c.title}</h3><div class="sub">${c.description}</div><p class="metric">${c.lessons.length} уроків · ${n.toLocaleString('uk-UA')} карток</p><div class="progress"><i style="width:${pc}%"></i></div></article>`}
 function openCourse(cid){state.course=cid;courses()}
 function courses(){if(!state.course)state.course=P().courses[0];const c=C();shell(`<div class="sectionhead"><div><button class="btn ghost" onclick="home()">← Назад</button><h2>${c.icon} ${c.title}</h2></div><span class="small">${c.lessons.length} уроків</span></div><div class="lesson-list">${c.lessons.map((l,i)=>`<article class="lesson ${done(state.course,l.id)?'done':''}"><div class="bubble">${done(state.course,l.id)?'✓':i+1}</div><div><h3>${l.title}</h3><small>${l.words.length} карток · ${l.duration} хв</small></div><button class="btn" onclick="start('${l.id}')">${done(state.course,l.id)?'Повторити':'Почати'}</button></article>`).join('')}</div>`,'courses')}
 function start(lid){state.lesson=C().lessons.find(l=>l.id===lid);state.card=0;state.score=0;study()}
@@ -41,4 +75,4 @@ function contrast(){const s=sett();s.contrast=!s.contrast;store.set('md-settings
 function font(d){const s=sett();s.font=Math.max(15,Math.min(23,s.font+d));store.set('md-settings',s);apply()}
 async function loadData(){const catalog=await fetch('content/catalog.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('catalog');return r.json()});const packages=await Promise.all(catalog.packages.map(async p=>{const x=await fetch(p.path,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error(p.path);return r.json()});return x}));DATA={version:catalog.contentVersion,profiles:catalog.profiles,courses:Object.fromEntries(packages.map(x=>[x.packageId,x.course]))};return DATA}
 loadData().then(()=>{apply();const last=store.get('md-last',null);if(last&&DATA.profiles.some(p=>p.id===last)){state.profile=last;home()}else profiles()}).catch(e=>{console.error(e);app.innerHTML='<div class="loading">Не вдалося завантажити модулі. Оновіть сторінку.</div>'});
-if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=2.1.0').then(reg=>reg.update()).catch(console.error);navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!sessionStorage.getItem('md-reloaded-2.1.0')){sessionStorage.setItem('md-reloaded-2.1.0','1');location.reload()}})}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js?v=2.2.0').then(reg=>reg.update()).catch(console.error);navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!sessionStorage.getItem('md-reloaded-2.2.0')){sessionStorage.setItem('md-reloaded-2.2.0','1');location.reload()}})}
