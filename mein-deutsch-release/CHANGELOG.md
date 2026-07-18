@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.3.0
+- Added per-profile Smart Repetition queues.
+- Added automatic review scheduling at 1, 3, 7, 14 and 30 days.
+- Added lesson activity fields: last opened, completion time, review count, last review and next review.
+- Added the “Repeat Today” dashboard action and one-tap review completion.
+- Added XP, current streak and best streak tracking.
+- Added migration for existing 2.2.0 lesson progress.
+- Included learning-engine data in backup export/import and reset.
+- Updated PWA cache and asset versions.
+
 ## 2.2.0
 - Added a personalized **Today** dashboard for every family profile.
 - Added three daily recommendations based on each profile’s learning goals.
