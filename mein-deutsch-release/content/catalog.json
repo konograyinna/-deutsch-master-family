@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "contentVersion": "1.0.0",
+  "contentVersion": "2.1.0",
   "appTitle": "Mein Deutsch",
   "tagline": "Lernen. Verstehen. Sprechen.",
   "profiles": [
@@ -9,14 +9,44 @@
       "name": "Інна",
       "greetingName": "Інно",
       "emoji": "👩",
-      "subtitle": "B2 · Радіологія · професійна комунікація",
+      "subtitle": "B1+ → B2 · медицина · Führerschein · життя в Німеччині",
       "courses": [
         "inna-radiology",
         "inna-work",
+        "inna-professional-plus",
+        "inna-situations-plus",
         "inna-formal",
         "inna-extra",
-        "inna-professional-plus",
-        "inna-situations-plus"
+        "roma-driving",
+        "roma-life"
+      ],
+      "courseGroups": [
+        {
+          "title": "Медицина і робота",
+          "icon": "🩺",
+          "courses": [
+            "inna-radiology",
+            "inna-work",
+            "inna-professional-plus",
+            "inna-situations-plus"
+          ]
+        },
+        {
+          "title": "B2 і офіційне спілкування",
+          "icon": "📝",
+          "courses": [
+            "inna-formal",
+            "inna-extra"
+          ]
+        },
+        {
+          "title": "Спільні курси",
+          "icon": "🌍",
+          "courses": [
+            "roma-driving",
+            "roma-life"
+          ]
+        }
       ]
     },
     {
@@ -32,6 +62,26 @@
         "roma-extra",
         "roma-germany-plus",
         "roma-situations-plus"
+      ],
+      "courseGroups": [
+        {
+          "title": "Робота й Ausbildung",
+          "icon": "💼",
+          "courses": [
+            "roma-career",
+            "roma-extra",
+            "roma-germany-plus",
+            "roma-situations-plus"
+          ]
+        },
+        {
+          "title": "Спільні курси",
+          "icon": "🌍",
+          "courses": [
+            "roma-driving",
+            "roma-life"
+          ]
+        }
       ]
     },
     {
@@ -39,7 +89,7 @@
       "name": "Назар",
       "greetingName": "Назаре",
       "emoji": "🧑",
-      "subtitle": "7–9 клас · предметна мова · письмові роботи",
+      "subtitle": "7 клас · Schreiben · предметна мова · шкільний успіх",
       "courses": [
         "nazar-school",
         "nazar-writing",
@@ -47,6 +97,32 @@
         "nazar-extra",
         "nazar-school-plus",
         "nazar-situations-plus"
+      ],
+      "courseGroups": [
+        {
+          "title": "7 клас",
+          "icon": "📚",
+          "courses": [
+            "nazar-school",
+            "nazar-school-plus"
+          ]
+        },
+        {
+          "title": "Schreiben і презентації",
+          "icon": "✍️",
+          "courses": [
+            "nazar-writing",
+            "nazar-extra"
+          ]
+        },
+        {
+          "title": "Шкільне спілкування",
+          "icon": "🏫",
+          "courses": [
+            "nazar-youth",
+            "nazar-situations-plus"
+          ]
+        }
       ]
     }
   ],
@@ -91,14 +167,22 @@
       "profileId": "roma",
       "path": "content/roma/roma-driving.json",
       "version": "1.0.0",
-      "count": 424
+      "count": 424,
+      "sharedWith": [
+        "inna",
+        "roma"
+      ]
     },
     {
       "id": "roma-life",
       "profileId": "roma",
       "path": "content/roma/roma-life.json",
       "version": "1.0.0",
-      "count": 320
+      "count": 320,
+      "sharedWith": [
+        "inna",
+        "roma"
+      ]
     },
     {
       "id": "roma-extra",
@@ -179,5 +263,5 @@
     }
   ],
   "releaseChannel": "stable",
-  "minimumAppVersion": "1.0.0"
+  "minimumAppVersion": "2.1.0"
 }
