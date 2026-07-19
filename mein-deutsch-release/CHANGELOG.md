@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.4.0 — Sprint 1
+- Added a separate Lernfreund for every family profile.
+- Added starter selection: cat, corgi, panda and penguin.
+- Added locked previews for seal, wolf, dinosaur and dragon.
+- Added the Lernfreund dashboard card with mood, level and XP progress.
+- Added automatic happy, sleeping and celebrating moods.
+- Included Lernfreund data in backup export/import and progress reset.
+- Updated PWA cache and asset versions.
+
 ## 2.3.0
 - Added per-profile Smart Repetition queues.
 - Added automatic review scheduling at 1, 3, 7, 14 and 30 days.

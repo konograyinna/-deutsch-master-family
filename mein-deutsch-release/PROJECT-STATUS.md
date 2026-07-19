@@ -1,23 +1,24 @@
 # Mein Deutsch — Project Status
 
-- Current version: **2.3.0**
-- Release channel: **release candidate**
-- Base: stable 2.2.0 release
-- Focus: smart spaced repetition and per-profile activity tracking
+- Current version: **2.4.0 Sprint 1**
+- Release channel: **alpha / family test**
+- Base: stable 2.3.0 release
+- Focus: first Lernfreund experience
 
-## Included in 2.3.0
-- Per-profile Smart Repetition queue
-- Automatic 1 / 3 / 7 / 14 / 30 day review intervals
-- Lesson last-opened, completion, review count, last-review and next-review tracking
-- “Repeat Today” dashboard card
-- One-tap “Reviewed” action
-- XP for completed lessons and reviews
-- Current and best learning streaks
-- Migration of existing 2.2.0 progress into the repetition engine
-- Learning data in backup export/import
+## Included in Sprint 1
+- Per-profile Lernfreund selection
+- Four available starter friends: cat, corgi, panda and penguin
+- Four visible locked friends: seal, wolf, dinosaur and dragon
+- Lernfreund dashboard card
+- Level and XP progress display using existing 2.3.0 activity data
+- Three automatic moods: happy, sleeping and celebrating
+- Lernfreund data in backup export/import and reset
+- Updated PWA cache and asset versions
+
+## Not included yet
+- Evolution stages
+- Accessories, toys and treats
+- Achievement unlock engine and animations
 
 ## Acceptance status
 **Ready for family testing.**
-
-## Next planned version
-**2.4.0 — Lernfreund**
