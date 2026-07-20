@@ -1,24 +1,26 @@
-# Mein Deutsch — Project Status
+# Project Status
 
-- Current version: **2.4.0 Sprint 1**
-- Release channel: **alpha / family test**
-- Base: stable 2.3.0 release
-- Focus: first Lernfreund experience
+## Current release
 
-## Included in Sprint 1
-- Per-profile Lernfreund selection
-- Four available starter friends: cat, corgi, panda and penguin
-- Four visible locked friends: seal, wolf, dinosaur and dragon
-- Lernfreund dashboard card
-- Level and XP progress display using existing 2.3.0 activity data
-- Three automatic moods: happy, sleeping and celebrating
-- Lernfreund data in backup export/import and reset
-- Updated PWA cache and asset versions
+**2.4.0-alpha.1 — Lernfreund Foundation**
 
-## Not included yet
-- Evolution stages
-- Accessories, toys and treats
-- Achievement unlock engine and animations
+Status: **Alpha / ready for manual acceptance testing**
 
-## Acceptance status
-**Ready for family testing.**
+Base: 2.3.0 Stable
+
+## Included in this alpha
+
+- Per-profile Lernfreund
+- Custom companion names
+- Cat, corgi, panda, and penguin
+- Full-body animated SVG rendering
+- Five visual growth stages
+- Happy, Celebrate, and Missing You states
+- Dashboard companion card
+- Lesson completion reaction
+- Backup/import/reset support
+- Long-word mobile overflow fix
+
+## Not yet stable
+
+This build requires manual testing on phone and desktop. Accessories, album, sleeping state, unlocked animals, and polished species-specific artwork remain future sprints.

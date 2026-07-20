@@ -1,6 +1,6 @@
-const CACHE = 'mein-deutsch-stable-2.4.0';
+const CACHE = 'mein-deutsch-stable-2.4.0-alpha.1';
 const CORE = [
-  './', './index.html', './styles.css?v=2.4.0', './app.js?v=2.4.0',
+  './', './index.html', './styles.css?v=2.4.0-alpha.1', './app.js?v=2.4.0-alpha.1',
   './manifest.webmanifest', './content/catalog.json',
   './icons/icon-192.png', './icons/icon-512.png'
 ];

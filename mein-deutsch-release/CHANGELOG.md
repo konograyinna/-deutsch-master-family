@@ -1,13 +1,18 @@
 # Changelog
 
-## 2.4.0 — Sprint 1
-- Added a separate Lernfreund for every family profile.
-- Added starter selection: cat, corgi, panda and penguin.
-- Added locked previews for seal, wolf, dinosaur and dragon.
-- Added the Lernfreund dashboard card with mood, level and XP progress.
-- Added automatic happy, sleeping and celebrating moods.
-- Included Lernfreund data in backup export/import and progress reset.
-- Updated PWA cache and asset versions.
+## 2.4.0-alpha.1 — Lernfreund Foundation
+
+- Added per-profile Lernfreund data and custom naming.
+- Added four starter companions: cat, corgi, panda, and penguin.
+- Added full-body animated SVG characters.
+- Added five visible growth stages driven by existing learning XP.
+- Added Happy, Celebrating, and Missing You reactions.
+- Added first-time companion setup and later editing.
+- Added lesson-completion celebration.
+- Included Lernfreund data in backup, import, and reset.
+- Fixed horizontal overflow for long German words.
+- Added VISION.md with the product and Lernfreund philosophy.
+
 
 ## 2.3.0
 - Added per-profile Smart Repetition queues.
