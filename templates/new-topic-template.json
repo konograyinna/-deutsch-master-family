@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "packageId": "new-topic-id",
+  "profileId": "inna",
+  "version": "1.0.0",
+  "course": {
+    "title": "Нова тема",
+    "icon": "📘",
+    "description": "Опис теми",
+    "lessons": [
+      {
+        "id": "new-topic-1",
+        "title": "Урок 1",
+        "duration": 8,
+        "words": [
+          {
+            "id": "unique-word-id",
+            "de": "der Begriff",
+            "uk": "поняття",
+            "level": "B2",
+            "type": "noun",
+            "exampleDe": "Das ist ein Beispielsatz.",
+            "exampleUk": "Це приклад речення.",
+            "tags": [
+              "Thema"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
